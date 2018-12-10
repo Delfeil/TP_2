@@ -411,7 +411,7 @@
                     <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q8AcouvxEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
                   </eAnnotations>
                   <ownedEnd xmi:type="uml:Property" xmi:id="_q8Aco-vxEeiufK5ZetEQmQ" name="mettre en marche" type="_m-01YOvxEeiufK5ZetEQmQ" association="_q8AcoOvxEeiufK5ZetEQmQ"/>
-                  <ownedEnd xmi:type="uml:Property" xmi:id="_q8AcpOvxEeiufK5ZetEQmQ" name="système de capteur" type="_I46xwOvxEeiufK5ZetEQmQ" association="_q8AcoOvxEeiufK5ZetEQmQ"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_q8AcpOvxEeiufK5ZetEQmQ" name="système de capteur" type="_YMOLsPxjEeiMlcNq83Zn9A" association="_q8AcoOvxEeiufK5ZetEQmQ"/>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Association" xmi:id="_rwploOvxEeiufK5ZetEQmQ" memberEnd="_rwplo-vxEeiufK5ZetEQmQ _rwplpOvxEeiufK5ZetEQmQ">
                   <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwploevxEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
@@ -420,6 +420,36 @@
                   <ownedEnd xmi:type="uml:Property" xmi:id="_rwplo-vxEeiufK5ZetEQmQ" name="arreter" type="_pc1v8OvxEeiufK5ZetEQmQ" association="_rwploOvxEeiufK5ZetEQmQ"/>
                   <ownedEnd xmi:type="uml:Property" xmi:id="_rwplpOvxEeiufK5ZetEQmQ" name="système de capteur" type="_I46xwOvxEeiufK5ZetEQmQ" association="_rwploOvxEeiufK5ZetEQmQ"/>
                 </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_VIFpIPxfEeiMlcNq83Zn9A" name="Cabine">
+                  <packagedElement xmi:type="uml:UseCase" xmi:id="_DxSDcPxhEeiMlcNq83Zn9A" name="Ouvrir les portes"/>
+                  <packagedElement xmi:type="uml:UseCase" xmi:id="_ArKKkPxiEeiMlcNq83Zn9A" name="Mettre en mouvement"/>
+                  <packagedElement xmi:type="uml:UseCase" xmi:id="_C7SaIPxiEeiMlcNq83Zn9A" name="Arreter le mouvement"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Actor" xmi:id="_XTkpQPxfEeiMlcNq83Zn9A" name="Ascenseur"/>
+                <packagedElement xmi:type="uml:Association" xmi:id="_HIl9gPxhEeiMlcNq83Zn9A" memberEnd="_HIpA0PxhEeiMlcNq83Zn9A _HIpn4PxhEeiMlcNq83Zn9A">
+                  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HInysPxhEeiMlcNq83Zn9A" source="org.eclipse.papyrus">
+                    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HInysfxhEeiMlcNq83Zn9A" key="nature" value="UML_Nature"/>
+                  </eAnnotations>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_HIpA0PxhEeiMlcNq83Zn9A" name="ouvrir les portes" type="_DxSDcPxhEeiMlcNq83Zn9A" association="_HIl9gPxhEeiMlcNq83Zn9A"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_HIpn4PxhEeiMlcNq83Zn9A" name="actor7" type="_XTkpQPxfEeiMlcNq83Zn9A" association="_HIl9gPxhEeiMlcNq83Zn9A"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_G0UhMPxiEeiMlcNq83Zn9A" memberEnd="_G0VvUPxiEeiMlcNq83Zn9A _G0VvUfxiEeiMlcNq83Zn9A">
+                  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G0VIQPxiEeiMlcNq83Zn9A" source="org.eclipse.papyrus">
+                    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G0VIQfxiEeiMlcNq83Zn9A" key="nature" value="UML_Nature"/>
+                  </eAnnotations>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_G0VvUPxiEeiMlcNq83Zn9A" name="mettre en mouvement" type="_ArKKkPxiEeiMlcNq83Zn9A" association="_G0UhMPxiEeiMlcNq83Zn9A"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_G0VvUfxiEeiMlcNq83Zn9A" name="ascenseur" type="_UikZ4PxiEeiMlcNq83Zn9A" association="_G0UhMPxiEeiMlcNq83Zn9A"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_HUeA4PxiEeiMlcNq83Zn9A" memberEnd="_HUfPAfxiEeiMlcNq83Zn9A _HUfPAvxiEeiMlcNq83Zn9A">
+                  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HUen8PxiEeiMlcNq83Zn9A" source="org.eclipse.papyrus">
+                    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HUfPAPxiEeiMlcNq83Zn9A" key="nature" value="UML_Nature"/>
+                  </eAnnotations>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_HUfPAfxiEeiMlcNq83Zn9A" name="arreter le mouvement" type="_C7SaIPxiEeiMlcNq83Zn9A" association="_HUeA4PxiEeiMlcNq83Zn9A"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_HUfPAvxiEeiMlcNq83Zn9A" name="ascenseur" type="_UikZ4PxiEeiMlcNq83Zn9A" association="_HUeA4PxiEeiMlcNq83Zn9A"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Actor" xmi:id="_UikZ4PxiEeiMlcNq83Zn9A" name="Moteur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_M6QvQPxjEeiMlcNq83Zn9A" name="Mettre en marche"/>
+                <packagedElement xmi:type="uml:Actor" xmi:id="_YMOLsPxjEeiMlcNq83Zn9A" name="Ascenseur"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Actor" xmi:id="_iF7pQOvwEeiufK5ZetEQmQ" name="Systeme de controle"/>
               <packagedElement xmi:type="uml:Association" xmi:id="_u1d28OvwEeiufK5ZetEQmQ" memberEnd="_u1d28-vwEeiufK5ZetEQmQ _u1d29OvwEeiufK5ZetEQmQ">
@@ -428,6 +458,13 @@
                 </eAnnotations>
                 <ownedEnd xmi:type="uml:Property" xmi:id="_u1d28-vwEeiufK5ZetEQmQ" name="s'areter à l'étage demandé" type="_rl48kOvwEeiufK5ZetEQmQ" association="_u1d28OvwEeiufK5ZetEQmQ"/>
                 <ownedEnd xmi:type="uml:Property" xmi:id="_u1d29OvwEeiufK5ZetEQmQ" name="systeme de controle" type="_iF7pQOvwEeiufK5ZetEQmQ" association="_u1d28OvwEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_fdYsMPxjEeiMlcNq83Zn9A" memberEnd="_fdZTQvxjEeiMlcNq83Zn9A _fdZTQ_xjEeiMlcNq83Zn9A">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fdZTQPxjEeiMlcNq83Zn9A" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fdZTQfxjEeiMlcNq83Zn9A" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_fdZTQvxjEeiMlcNq83Zn9A" name="mettre en marche" type="_M6QvQPxjEeiMlcNq83Zn9A" association="_fdYsMPxjEeiMlcNq83Zn9A"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_fdZTQ_xjEeiMlcNq83Zn9A" name="systeme de controle" type="_iF7pQOvwEeiufK5ZetEQmQ" association="_fdYsMPxjEeiMlcNq83Zn9A"/>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_sRet8OZjEeiaw4UvhcebdA" name="visualisation_resultats">
