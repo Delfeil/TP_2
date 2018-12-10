@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wSkbgODWEeionYGE9C4Uog" name="use_case_view">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_wW460ODWEeionYGE9C4Uog">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0gGHsODdEeionYGE9C4Uog" name="fr">
+    <packagedElement xmi:type="uml:Package" xmi:id="_5u8LIODdEeionYGE9C4Uog" name="univ-avignon">
+      <packagedElement xmi:type="uml:Package" xmi:id="__l7zsODdEeionYGE9C4Uog" name="m1ilsen">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Cx71oODeEeionYGE9C4Uog" name="aa">
+          <packagedElement xmi:type="uml:Package" xmi:id="_EFZooODeEeionYGE9C4Uog" name="attollo">
+            <packagedElement xmi:type="uml:Actor" xmi:id="_QCa0QODeEeionYGE9C4Uog" name="Testeur"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_CgvigODfEeionYGE9C4Uog" name="Simulateur d'assenceur">
+              <packagedElement xmi:type="uml:UseCase" xmi:id="_YSo9AODpEeionYGE9C4Uog" name="Configurer la simulation">
+                <include xmi:type="uml:Include" xmi:id="_JEzO8ODrEeionYGE9C4Uog" addition="_eLApIODqEeionYGE9C4Uog"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:UseCase" xmi:id="_QzICAODqEeionYGE9C4Uog" name="lancer la simularion">
+                <include xmi:type="uml:Include" xmi:id="_NP59cODrEeionYGE9C4Uog" addition="_S4rZQODqEeionYGE9C4Uog"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:UseCase" xmi:id="_S4rZQODqEeionYGE9C4Uog" name="Visualiser les résultats"/>
+              <packagedElement xmi:type="uml:UseCase" xmi:id="_eLApIODqEeionYGE9C4Uog" name="Choisir un algorithme d'optimisation">
+                <include xmi:type="uml:Include" xmi:id="_0Iz9MODqEeionYGE9C4Uog" addition="_QzICAODqEeionYGE9C4Uog"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_9LoWIOvuEeiufK5ZetEQmQ" name="Systeme de controle">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_MWf90OvvEeiufK5ZetEQmQ" name="transmettre appel de l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_TTHKoOvvEeiufK5ZetEQmQ" name="Transmettre le choix du niveau"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_X8XNsOvvEeiufK5ZetEQmQ" name="Transmettre le niveau de l'ascenseur"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="__P7wMOvuEeiufK5ZetEQmQ" name="Interface_utilisateur_externe"/>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_EX03EOvvEeiufK5ZetEQmQ" name="Interface_utilisateur_interne"/>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_HxqgsOvvEeiufK5ZetEQmQ" name="Ascenseur"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_SvhVYOvvEeiufK5ZetEQmQ" memberEnd="_SvhVY-vvEeiufK5ZetEQmQ _SvhVZOvvEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SvhVYevvEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SvhVYuvvEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_SvhVY-vvEeiufK5ZetEQmQ" name="transmettre appel de l'ascenseur" type="_MWf90OvvEeiufK5ZetEQmQ" association="_SvhVYOvvEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_SvhVZOvvEeiufK5ZetEQmQ" name="interface_utilisateur_externe" type="__P7wMOvuEeiufK5ZetEQmQ" association="_SvhVYOvvEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_WedFQOvvEeiufK5ZetEQmQ" memberEnd="_WedFQ-vvEeiufK5ZetEQmQ _WedFROvvEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WedFQevvEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WedFQuvvEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_WedFQ-vvEeiufK5ZetEQmQ" name="transmettre le choix du niveau" type="_TTHKoOvvEeiufK5ZetEQmQ" association="_WedFQOvvEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_WedFROvvEeiufK5ZetEQmQ" name="interface_utilisateur_interne" type="_EX03EOvvEeiufK5ZetEQmQ" association="_WedFQOvvEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_dW9OIOvvEeiufK5ZetEQmQ" memberEnd="_dW9OI-vvEeiufK5ZetEQmQ _dW9OJOvvEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dW9OIevvEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dW9OIuvvEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_dW9OI-vvEeiufK5ZetEQmQ" name="transmettre le niveau de l'ascenseur" type="_X8XNsOvvEeiufK5ZetEQmQ" association="_dW9OIOvvEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_dW9OJOvvEeiufK5ZetEQmQ" name="ascenseur" type="_HxqgsOvvEeiufK5ZetEQmQ" association="_dW9OIOvvEeiufK5ZetEQmQ"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_1VtOIODqEeionYGE9C4Uog" memberEnd="_1VtOI-DqEeionYGE9C4Uog _1V2YEODqEeionYGE9C4Uog">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1VtOIeDqEeionYGE9C4Uog" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1VtOIuDqEeionYGE9C4Uog" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_1VtOI-DqEeionYGE9C4Uog" name="configurer la simulation" type="_YSo9AODpEeionYGE9C4Uog" association="_1VtOIODqEeionYGE9C4Uog"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_1V2YEODqEeionYGE9C4Uog" name="testeur" type="_QCa0QODeEeionYGE9C4Uog" association="_1VtOIODqEeionYGE9C4Uog"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_GIkuYODrEeionYGE9C4Uog" memberEnd="_GIkuY-DrEeionYGE9C4Uog _GIkuZODrEeionYGE9C4Uog">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GIkuYeDrEeionYGE9C4Uog" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GIkuYuDrEeionYGE9C4Uog" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_GIkuY-DrEeionYGE9C4Uog" name="visualiser les résultats" type="_S4rZQODqEeionYGE9C4Uog" association="_GIkuYODrEeionYGE9C4Uog"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_GIkuZODrEeionYGE9C4Uog" name="testeur" type="_QCa0QODeEeionYGE9C4Uog" association="_GIkuYODrEeionYGE9C4Uog"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_Qs6P0ODrEeionYGE9C4Uog" memberEnd="_Qs6P0-DrEeionYGE9C4Uog _Qs6P1ODrEeionYGE9C4Uog">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qs6P0eDrEeionYGE9C4Uog" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qs6P0uDrEeionYGE9C4Uog" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_Qs6P0-DrEeionYGE9C4Uog" name="lancer la simularion" type="_QzICAODqEeionYGE9C4Uog" association="_Qs6P0ODrEeionYGE9C4Uog"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_Qs6P1ODrEeionYGE9C4Uog" name="testeur" type="_QCa0QODeEeionYGE9C4Uog" association="_Qs6P0ODrEeionYGE9C4Uog"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_JoKJgOZjEeiaw4UvhcebdA" name="Configuration">
+              <packagedElement xmi:type="uml:Actor" xmi:id="_h8bMYOZoEeiaw4UvhcebdA" name="Interfaceur"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_nMTKkOZoEeiaw4UvhcebdA" name="Configuration">
+                <ownedRule xmi:type="uml:Constraint" xmi:id="_OEfjMOZpEeiaw4UvhcebdA" name="Ascenseur par défault si pas d'ascenseur" constrainedElement="_X-iiwOZvEeiaw4UvhcebdA">
+                  <specification xmi:type="uml:OpaqueExpression" xmi:id="_OEfjMeZpEeiaw4UvhcebdA" name="Ascenseur">
+                    <language>JAVA</language>
+                    <body>ascenseur!=nul</body>
+                  </specification>
+                </ownedRule>
+                <ownedRule xmi:type="uml:Constraint" xmi:id="_2nmwEOZqEeiaw4UvhcebdA" name="Au moins un moteur configuré" constrainedElement="_YtXXoOZvEeiaw4UvhcebdA">
+                  <specification xmi:type="uml:OpaqueExpression" xmi:id="_2nwhEOZqEeiaw4UvhcebdA" name="moteur">
+                    <language>JAVA</language>
+                    <body>moteur!=null</body>
+                  </specification>
+                </ownedRule>
+                <ownedRule xmi:type="uml:Constraint" xmi:id="_UOECIOZsEeiaw4UvhcebdA" name="La configuration existe" constrainedElement="_EhTG8OZvEeiaw4UvhcebdA">
+                  <specification xmi:type="uml:OpaqueExpression" xmi:id="_UOECIeZsEeiaw4UvhcebdA" name="config">
+                    <language>JAVA</language>
+                    <body>config!=null</body>
+                  </specification>
+                </ownedRule>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_qa_7MOZoEeiaw4UvhcebdA" name="Configurer le moteur">
+                  <include xmi:type="uml:Include" xmi:id="_S4X6MOZvEeiaw4UvhcebdA" addition="_teNNgOZoEeiaw4UvhcebdA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_teNNgOZoEeiaw4UvhcebdA" name="Choix de la vitesse"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_1s_M0OZoEeiaw4UvhcebdA" name="Configuration du baptiment">
+                  <include xmi:type="uml:Include" xmi:id="_QqV8YOZvEeiaw4UvhcebdA" addition="_3wShUOZoEeiaw4UvhcebdA"/>
+                  <include xmi:type="uml:Include" xmi:id="_RNBLoOZvEeiaw4UvhcebdA" addition="_FsevYOZpEeiaw4UvhcebdA"/>
+                  <include xmi:type="uml:Include" xmi:id="_X-iiwOZvEeiaw4UvhcebdA" addition="_KcwAcOZpEeiaw4UvhcebdA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_3wShUOZoEeiaw4UvhcebdA" name="Choix du nombre de niveau"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_FsevYOZpEeiaw4UvhcebdA" name="Choix de l'écart entre les niveaux"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_KcwAcOZpEeiaw4UvhcebdA" name="Choix de l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_qVD10OZpEeiaw4UvhcebdA" name="Configuration de l'ascenseur">
+                  <include xmi:type="uml:Include" xmi:id="_NVNzoOZvEeiaw4UvhcebdA" addition="_vUT-EOZpEeiaw4UvhcebdA"/>
+                  <include xmi:type="uml:Include" xmi:id="_N6N-IOZvEeiaw4UvhcebdA" addition="_aAY4AOZqEeiaw4UvhcebdA"/>
+                  <include xmi:type="uml:Include" xmi:id="_YtXXoOZvEeiaw4UvhcebdA" addition="_iyMr4OZqEeiaw4UvhcebdA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_vUT-EOZpEeiaw4UvhcebdA" name="choix de l'algorithe du comportement de l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_aAY4AOZqEeiaw4UvhcebdA" name="Choix de la précision de la cabine"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_iyMr4OZqEeiaw4UvhcebdA" name="Choix du moteur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-gAPsOZqEeiaw4UvhcebdA" name="Sauvegarde de la configuration">
+                  <include xmi:type="uml:Include" xmi:id="_K3BS4OZvEeiaw4UvhcebdA" addition="_67ejkOZrEeiaw4UvhcebdA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_Jq9FMOZrEeiaw4UvhcebdA" name="Configurer scénario d'utilisation">
+                  <include xmi:type="uml:Include" xmi:id="_HVrTEOZvEeiaw4UvhcebdA" addition="_OswLIOZrEeiaw4UvhcebdA"/>
+                  <include xmi:type="uml:Include" xmi:id="_HzU4YOZvEeiaw4UvhcebdA" addition="_UmCSsOZrEeiaw4UvhcebdA"/>
+                  <include xmi:type="uml:Include" xmi:id="_IWBVwOZvEeiaw4UvhcebdA" addition="_q046gOZrEeiaw4UvhcebdA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_OswLIOZrEeiaw4UvhcebdA" name="Sélectionner le nombre d'utilisateur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_UmCSsOZrEeiaw4UvhcebdA" name="Lieu départ" visibility="private">
+                  <ownedComment xmi:type="uml:Comment" xmi:id="_gP2OcOZrEeiaw4UvhcebdA" annotatedElement="_UmCSsOZrEeiaw4UvhcebdA">
+                    <body>Sélectionner le niveau où chaque utilisateur est situé au démarage de la simulation</body>
+                  </ownedComment>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_q046gOZrEeiaw4UvhcebdA" name="Lieu d'arrivée">
+                  <ownedComment xmi:type="uml:Comment" xmi:id="_yRi5UOZrEeiaw4UvhcebdA" annotatedElement="_q046gOZrEeiaw4UvhcebdA">
+                    <body>Sélection du lieu où chaque utilisateur veux aller lors de la simulation</body>
+                  </ownedComment>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_67ejkOZrEeiaw4UvhcebdA" name="Choisir un nom pour la configuration"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_Ev7gMOZsEeiaw4UvhcebdA" name="Supprimer une configuration">
+                  <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ehc38OZvEeiaw4UvhcebdA" name="ExtensionPoint1"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_HoXF4OZsEeiaw4UvhcebdA" name="Choisir la configuration">
+                  <extend xmi:type="uml:Extend" xmi:id="_EhTG8OZvEeiaw4UvhcebdA" extendedCase="_Ev7gMOZsEeiaw4UvhcebdA" extensionLocation="_Ehc38OZvEeiaw4UvhcebdA"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_cPisoOZpEeiaw4UvhcebdA" memberEnd="_cPiso-ZpEeiaw4UvhcebdA _cPispOZpEeiaw4UvhcebdA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cPisoeZpEeiaw4UvhcebdA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cPisouZpEeiaw4UvhcebdA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_cPiso-ZpEeiaw4UvhcebdA" name="configurer le moteur" type="_qa_7MOZoEeiaw4UvhcebdA" association="_cPisoOZpEeiaw4UvhcebdA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_cPispOZpEeiaw4UvhcebdA" name="utilisateur" type="_h8bMYOZoEeiaw4UvhcebdA" association="_cPisoOZpEeiaw4UvhcebdA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_fl9O0OZpEeiaw4UvhcebdA" memberEnd="_fl9O0-ZpEeiaw4UvhcebdA _fl9O1OZpEeiaw4UvhcebdA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fl9O0eZpEeiaw4UvhcebdA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fl9O0uZpEeiaw4UvhcebdA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_fl9O0-ZpEeiaw4UvhcebdA" name="configuration du baptiment" type="_1s_M0OZoEeiaw4UvhcebdA" association="_fl9O0OZpEeiaw4UvhcebdA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_fl9O1OZpEeiaw4UvhcebdA" name="utilisateur" type="_h8bMYOZoEeiaw4UvhcebdA" association="_fl9O0OZpEeiaw4UvhcebdA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_twKqwOZpEeiaw4UvhcebdA" memberEnd="_twKqw-ZpEeiaw4UvhcebdA _twKqxOZpEeiaw4UvhcebdA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_twKqweZpEeiaw4UvhcebdA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_twKqwuZpEeiaw4UvhcebdA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_twKqw-ZpEeiaw4UvhcebdA" name="configuration de l'ascenseur" type="_qVD10OZpEeiaw4UvhcebdA" association="_twKqwOZpEeiaw4UvhcebdA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_twKqxOZpEeiaw4UvhcebdA" name="utilisateur" type="_h8bMYOZoEeiaw4UvhcebdA" association="_twKqwOZpEeiaw4UvhcebdA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_BvEMsOZrEeiaw4UvhcebdA" memberEnd="_BvEMs-ZrEeiaw4UvhcebdA _BvEMtOZrEeiaw4UvhcebdA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BvEMseZrEeiaw4UvhcebdA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BvEMsuZrEeiaw4UvhcebdA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_BvEMs-ZrEeiaw4UvhcebdA" name="sauvegarde de la configuration" type="_-gAPsOZqEeiaw4UvhcebdA" association="_BvEMsOZrEeiaw4UvhcebdA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_BvEMtOZrEeiaw4UvhcebdA" name="utilisateur" type="_h8bMYOZoEeiaw4UvhcebdA" association="_BvEMsOZrEeiaw4UvhcebdA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_N1WCAOZrEeiaw4UvhcebdA" memberEnd="_N1WCA-ZrEeiaw4UvhcebdA _N1WCBOZrEeiaw4UvhcebdA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N1WCAeZrEeiaw4UvhcebdA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N1WCAuZrEeiaw4UvhcebdA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_N1WCA-ZrEeiaw4UvhcebdA" name="utilisateur" type="_h8bMYOZoEeiaw4UvhcebdA" association="_N1WCAOZrEeiaw4UvhcebdA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_N1WCBOZrEeiaw4UvhcebdA" name="configurer scénario d'utilisation" type="_Jq9FMOZrEeiaw4UvhcebdA" association="_N1WCAOZrEeiaw4UvhcebdA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_NRyzkOZsEeiaw4UvhcebdA" memberEnd="_NRyzk-ZsEeiaw4UvhcebdA _NRyzlOZsEeiaw4UvhcebdA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NRyzkeZsEeiaw4UvhcebdA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NRyzkuZsEeiaw4UvhcebdA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_NRyzk-ZsEeiaw4UvhcebdA" name="utilisateur" type="_h8bMYOZoEeiaw4UvhcebdA" association="_NRyzkOZsEeiaw4UvhcebdA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_NRyzlOZsEeiaw4UvhcebdA" name="supprimer une configuration" type="_Ev7gMOZsEeiaw4UvhcebdA" association="_NRyzkOZsEeiaw4UvhcebdA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_jNO7cOvjEeiufK5ZetEQmQ" name="Interfaceur"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_ME_YUOZjEeiaw4UvhcebdA" name="Simulateur">
+              <ownedRule xmi:type="uml:Constraint" xmi:id="_nTDkwOZmEeiaw4UvhcebdA" name="Configuration établie" constrainedElement="_mf7esOZmEeiaw4UvhcebdA">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_nTDkweZmEeiaw4UvhcebdA" name="constraintSpec">
+                  <language>JAVA</language>
+                  <body>config != null</body>
+                </specification>
+              </ownedRule>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_zYor8OZlEeiaw4UvhcebdA" name="Interfaceur"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_1pHg0OZlEeiaw4UvhcebdA" name="simulation">
+                <ownedRule xmi:type="uml:Constraint" xmi:id="_JL3vgOvcEeiufK5ZetEQmQ" name="Si l'ascenseur est arrété à l'étage de l'utilisateur" visibility="private" constrainedElement="_CM3WAOvcEeiufK5ZetEQmQ">
+                  <specification xmi:type="uml:OpaqueExpression" xmi:id="_JL7Z4OvcEeiufK5ZetEQmQ" name="constraintSpec">
+                    <language>JAVA</language>
+                    <body>Ascenseur.getEtage() == user.getEtage();</body>
+                  </specification>
+                </ownedRule>
+                <ownedRule xmi:type="uml:Constraint" xmi:id="_okKBAOvcEeiufK5ZetEQmQ" name="Si l'ascenseur n'est pas à l'étage de l'utilisateur" constrainedElement="_Mk0IoOvZEeiufK5ZetEQmQ">
+                  <specification xmi:type="uml:OpaqueExpression" xmi:id="_okKBAevcEeiufK5ZetEQmQ" name="constraintSpec">
+                    <language>JAVA</language>
+                    <body>Ascenseur.getEtage() != Utilisateur.getEtage()</body>
+                  </specification>
+                </ownedRule>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_kWJuwOZmEeiaw4UvhcebdA" name="Lancer une simulation">
+                  <include xmi:type="uml:Include" xmi:id="_PO-10OZoEeiaw4UvhcebdA" addition="_7PfBgOZnEeiaw4UvhcebdA"/>
+                  <include xmi:type="uml:Include" xmi:id="_PRr0AOvYEeiufK5ZetEQmQ" addition="_RlRcsOvXEeiufK5ZetEQmQ"/>
+                  <include xmi:type="uml:Include" xmi:id="_4XZa0OvdEeiufK5ZetEQmQ" addition="_xFdeQOvdEeiufK5ZetEQmQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_7PfBgOZnEeiaw4UvhcebdA" name="Choisir une configuration à appliquer"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_RlRcsOvXEeiufK5ZetEQmQ" name="L'ancer les actions des utilisateurs définis lors de la confguration">
+                  <include xmi:type="uml:Include" xmi:id="_Mk0IoOvZEeiufK5ZetEQmQ" addition="_HSZz0OvZEeiufK5ZetEQmQ"/>
+                  <include xmi:type="uml:Include" xmi:id="_CM3WAOvcEeiufK5ZetEQmQ" addition="_SWOGkOvZEeiufK5ZetEQmQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_HSZz0OvZEeiufK5ZetEQmQ" name="Appel de l'ascenseur à un étage du baptiment">
+                  <include xmi:type="uml:Include" xmi:id="_E9iRYOvdEeiufK5ZetEQmQ" addition="_BlSjMOvdEeiufK5ZetEQmQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_SWOGkOvZEeiufK5ZetEQmQ" name="Choisir l'étage de destination">
+                  <include xmi:type="uml:Include" xmi:id="_MJzq0OvdEeiufK5ZetEQmQ" addition="_GxWYYOvdEeiufK5ZetEQmQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_BlSjMOvdEeiufK5ZetEQmQ" name="Enregistrer le temps d'attente avant que l'ascenseur arrive"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_GxWYYOvdEeiufK5ZetEQmQ" name="Enregistrer le temps d'attente dans l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_xFdeQOvdEeiufK5ZetEQmQ" name="Enregistrer les différents temps dans la base de données"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_mf7esOZmEeiaw4UvhcebdA" memberEnd="_mgEoouZmEeiaw4UvhcebdA _mgEoo-ZmEeiaw4UvhcebdA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mgEooOZmEeiaw4UvhcebdA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mgEooeZmEeiaw4UvhcebdA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_mgEoouZmEeiaw4UvhcebdA" name="lancer une simulation" type="_kWJuwOZmEeiaw4UvhcebdA" association="_mf7esOZmEeiaw4UvhcebdA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_mgEoo-ZmEeiaw4UvhcebdA" name="actor1" type="_zYor8OZlEeiaw4UvhcebdA" association="_mf7esOZmEeiaw4UvhcebdA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_hO9bcOvkEeiufK5ZetEQmQ" name="Simulateur"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_kOgVwOvkEeiufK5ZetEQmQ" name="Simulateur">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_9deNsOvmEeiufK5ZetEQmQ" name="Initialiser la simulation"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_u6FcwOvmEeiufK5ZetEQmQ" name="Visualisation des résultats">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_zecYwOvmEeiufK5ZetEQmQ" name="Sauvegarder des résultats"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_16p8gOvmEeiufK5ZetEQmQ" memberEnd="_16zGcOvmEeiufK5ZetEQmQ _16zGcevmEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_16p8gevmEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_16p8guvmEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_16zGcOvmEeiufK5ZetEQmQ" name="sauvegarder des résultats" type="_zecYwOvmEeiufK5ZetEQmQ" association="_16p8gOvmEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_16zGcevmEeiufK5ZetEQmQ" name="simulateur" type="_hO9bcOvkEeiufK5ZetEQmQ" association="_16p8gOvmEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_ET-ygOvnEeiufK5ZetEQmQ" memberEnd="_ET-yg-vnEeiufK5ZetEQmQ _ET-yhOvnEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ET-ygevnEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ET-yguvnEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_ET-yg-vnEeiufK5ZetEQmQ" name="initialiser la simulation" type="_9deNsOvmEeiufK5ZetEQmQ" association="_ET-ygOvnEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_ET-yhOvnEeiufK5ZetEQmQ" name="simulateur" type="_hO9bcOvkEeiufK5ZetEQmQ" association="_ET-ygOvnEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_e7tfEOvnEeiufK5ZetEQmQ" name="Utilisateur">
+                <packagedElement xmi:type="uml:Actor" xmi:id="_qHtgoOvrEeiufK5ZetEQmQ" name="Systeme de controle"/>
+                <packagedElement xmi:type="uml:Association" xmi:id="_6tdVcOvsEeiufK5ZetEQmQ" memberEnd="_6tdVc-vsEeiufK5ZetEQmQ _6tdVdOvsEeiufK5ZetEQmQ">
+                  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6tdVcevsEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6tdVcuvsEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                  </eAnnotations>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_6tdVc-vsEeiufK5ZetEQmQ" name="valider la demande" type="_PysfQOvsEeiufK5ZetEQmQ" association="_6tdVcOvsEeiufK5ZetEQmQ"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_6tdVdOvsEeiufK5ZetEQmQ" name="systeme de controle" type="_qHtgoOvrEeiufK5ZetEQmQ" association="_6tdVcOvsEeiufK5ZetEQmQ"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_nRDZYOvnEeiufK5ZetEQmQ" name="Utilisateur simulé"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_q2dZ0OvnEeiufK5ZetEQmQ" name="Interface utilisateur exterieur">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_zJRkkOvnEeiufK5ZetEQmQ" name="Appeler l'ascenseur">
+                  <include xmi:type="uml:Include" xmi:id="__pb5gOvnEeiufK5ZetEQmQ" addition="_7iVhQOvnEeiufK5ZetEQmQ"/>
+                  <include xmi:type="uml:Include" xmi:id="_ATyeEOvoEeiufK5ZetEQmQ" addition="_88a5oOvnEeiufK5ZetEQmQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_2hBjgOvnEeiufK5ZetEQmQ" name=""/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_7iVhQOvnEeiufK5ZetEQmQ" name="Monter"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_88a5oOvnEeiufK5ZetEQmQ" name="Descendre"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_YpFN8OvoEeiufK5ZetEQmQ" name="Voir si la demande a été prise en compte">
+                  <include xmi:type="uml:Include" xmi:id="_8f7YoOvsEeiufK5ZetEQmQ" addition="_PysfQOvsEeiufK5ZetEQmQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_PysfQOvsEeiufK5ZetEQmQ" name="Valider la demande"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_B68CEOvoEeiufK5ZetEQmQ" name="Interface utilisateur de l'ascenseur">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_B68CEevoEeiufK5ZetEQmQ" name="Appeler l'ascenseur">
+                  <include xmi:type="uml:Include" xmi:id="_B68CEuvoEeiufK5ZetEQmQ" addition="_B68CFevoEeiufK5ZetEQmQ"/>
+                  <include xmi:type="uml:Include" xmi:id="_B68CE-voEeiufK5ZetEQmQ" addition="_B68CFuvoEeiufK5ZetEQmQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_B68CFOvoEeiufK5ZetEQmQ" name=""/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_B68CFevoEeiufK5ZetEQmQ" name="Monter"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_B68CFuvoEeiufK5ZetEQmQ" name="Descendre"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_F--fQOvoEeiufK5ZetEQmQ" name="Choisir un niveau"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_SFHKoOvoEeiufK5ZetEQmQ" name="Voir à quel niveau est l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_frVvwOvoEeiufK5ZetEQmQ" name="Voir si la demande a été prise en compte"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_K3OAkOvoEeiufK5ZetEQmQ" memberEnd="_K3OAk-voEeiufK5ZetEQmQ _K3OAlOvoEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K3OAkevoEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K3OAkuvoEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_K3OAk-voEeiufK5ZetEQmQ" name="appeler l'ascenseur" type="_zJRkkOvnEeiufK5ZetEQmQ" association="_K3OAkOvoEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_K3OAlOvoEeiufK5ZetEQmQ" name="utilisateur simulé" type="_nRDZYOvnEeiufK5ZetEQmQ" association="_K3OAkOvoEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Nd4g0OvoEeiufK5ZetEQmQ" memberEnd="_Nd4g0-voEeiufK5ZetEQmQ _Nd4g1OvoEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Nd4g0evoEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nd4g0uvoEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_Nd4g0-voEeiufK5ZetEQmQ" name="choisir un niveau" type="_F--fQOvoEeiufK5ZetEQmQ" association="_Nd4g0OvoEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_Nd4g1OvoEeiufK5ZetEQmQ" name="utilisateur simulé" type="_nRDZYOvnEeiufK5ZetEQmQ" association="_Nd4g0OvoEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_VJwnYOvoEeiufK5ZetEQmQ" memberEnd="_VJwnY-voEeiufK5ZetEQmQ _VJwnZOvoEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VJwnYevoEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VJwnYuvoEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_VJwnY-voEeiufK5ZetEQmQ" name="utilisateur simulé" type="_nRDZYOvnEeiufK5ZetEQmQ" association="_VJwnYOvoEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_VJwnZOvoEeiufK5ZetEQmQ" name="voir à quel niveau est l'ascenseur" type="_SFHKoOvoEeiufK5ZetEQmQ" association="_VJwnYOvoEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_e-LHwOvoEeiufK5ZetEQmQ" memberEnd="_e-LHw-voEeiufK5ZetEQmQ _e-LHxOvoEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e-LHwevoEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e-LHwuvoEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_e-LHw-voEeiufK5ZetEQmQ" name="voir si la demande a été prise en compte" type="_YpFN8OvoEeiufK5ZetEQmQ" association="_e-LHwOvoEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_e-LHxOvoEeiufK5ZetEQmQ" name="utilisateur simulé" type="_nRDZYOvnEeiufK5ZetEQmQ" association="_e-LHwOvoEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_jwdyEOvoEeiufK5ZetEQmQ" memberEnd="_jweZIuvoEeiufK5ZetEQmQ _jweZI-voEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jweZIOvoEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jweZIevoEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_jweZIuvoEeiufK5ZetEQmQ" name="voir si la demande a été prise en compte" type="_frVvwOvoEeiufK5ZetEQmQ" association="_jwdyEOvoEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_jweZI-voEeiufK5ZetEQmQ" name="utilisateur simulé" type="_nRDZYOvnEeiufK5ZetEQmQ" association="_jwdyEOvoEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_-yI9wOvqEeiufK5ZetEQmQ" name="Interface utilisateur de l'ascenseur">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-yI9wevqEeiufK5ZetEQmQ" name="Appeler l'ascenseur">
+                  <include xmi:type="uml:Include" xmi:id="_-yI9wuvqEeiufK5ZetEQmQ" addition="_-yI9xevqEeiufK5ZetEQmQ"/>
+                  <include xmi:type="uml:Include" xmi:id="_-yI9w-vqEeiufK5ZetEQmQ" addition="_-yI9xuvqEeiufK5ZetEQmQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-yI9xOvqEeiufK5ZetEQmQ" name=""/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-yI9xevqEeiufK5ZetEQmQ" name="Monter"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-yI9xuvqEeiufK5ZetEQmQ" name="Descendre"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-yI9x-vqEeiufK5ZetEQmQ" name="Choisir un niveau"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-yI9yOvqEeiufK5ZetEQmQ" name="Voir à quel niveau est l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-yI9yevqEeiufK5ZetEQmQ" name="Voir si la demande a été prise en compte"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_MunfsOvrEeiufK5ZetEQmQ" name="Choisir un niveau"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_WXcbIOvrEeiufK5ZetEQmQ" name="Voir à quel niveau est l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_ajAcoOvrEeiufK5ZetEQmQ" name="Voir si la demande a été prise en compte"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_FENt4OvtEeiufK5ZetEQmQ" name="Envoyer la position de l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_mkhb0OvtEeiufK5ZetEQmQ" name="Valider la demande"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_KQtS0OvrEeiufK5ZetEQmQ" name="Utilisateur simulé"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_d5Hc0OvrEeiufK5ZetEQmQ" memberEnd="_d5Hc0-vrEeiufK5ZetEQmQ _d5Hc1OvrEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d5Hc0evrEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d5Hc0uvrEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_d5Hc0-vrEeiufK5ZetEQmQ" name="choisir un niveau" type="_MunfsOvrEeiufK5ZetEQmQ" association="_d5Hc0OvrEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_d5Hc1OvrEeiufK5ZetEQmQ" name="utilisateur simulé" type="_KQtS0OvrEeiufK5ZetEQmQ" association="_d5Hc0OvrEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_eVJ4kOvrEeiufK5ZetEQmQ" memberEnd="_eVJ4k-vrEeiufK5ZetEQmQ _eVJ4lOvrEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eVJ4kevrEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eVJ4kuvrEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_eVJ4k-vrEeiufK5ZetEQmQ" name="voir à quel niveau est l'ascenseur" type="_WXcbIOvrEeiufK5ZetEQmQ" association="_eVJ4kOvrEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_eVJ4lOvrEeiufK5ZetEQmQ" name="utilisateur simulé" type="_KQtS0OvrEeiufK5ZetEQmQ" association="_eVJ4kOvrEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_e9pb8OvrEeiufK5ZetEQmQ" memberEnd="_e9pb8-vrEeiufK5ZetEQmQ _e9pb9OvrEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e9pb8evrEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e9pb8uvrEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_e9pb8-vrEeiufK5ZetEQmQ" name="voir si la demande a été prise en compte" type="_ajAcoOvrEeiufK5ZetEQmQ" association="_e9pb8OvrEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_e9pb9OvrEeiufK5ZetEQmQ" name="utilisateur simulé" type="_KQtS0OvrEeiufK5ZetEQmQ" association="_e9pb8OvrEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_CXOjMOvtEeiufK5ZetEQmQ" name="Systeme de controle"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_kQpUsOvtEeiufK5ZetEQmQ" memberEnd="_kQzFsuvtEeiufK5ZetEQmQ _kQzFs-vtEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kQzFsOvtEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kQzFsevtEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_kQzFsuvtEeiufK5ZetEQmQ" name="envoyer la position de l'ascenseur" type="_FENt4OvtEeiufK5ZetEQmQ" association="_kQpUsOvtEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_kQzFs-vtEeiufK5ZetEQmQ" name="systeme de controle" type="_CXOjMOvtEeiufK5ZetEQmQ" association="_kQpUsOvtEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_oPwOkOvtEeiufK5ZetEQmQ" memberEnd="_oPwOk-vtEeiufK5ZetEQmQ _oPwOlOvtEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oPwOkevtEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oPwOkuvtEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_oPwOk-vtEeiufK5ZetEQmQ" name="valider la demande" type="_mkhb0OvtEeiufK5ZetEQmQ" association="_oPwOkOvtEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_oPwOlOvtEeiufK5ZetEQmQ" name="systeme de controle" type="_CXOjMOvtEeiufK5ZetEQmQ" association="_oPwOkOvtEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_-5JLYOvvEeiufK5ZetEQmQ" name="Utilisateur simule">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_Izi_AOvwEeiufK5ZetEQmQ" name="Etre informe de la bonne transmission de la demande"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_SVi5sOvwEeiufK5ZetEQmQ" name="Etre informe de la position de l'ascenseur"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_CPXgUOvwEeiufK5ZetEQmQ" name="Interface utilisateur interne">
+                <generalization xmi:type="uml:Generalization" xmi:id="_Wcp5AOvwEeiufK5ZetEQmQ" general="_FU_0gOvwEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_FU_0gOvwEeiufK5ZetEQmQ" name="Interface utilisateur externe"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_ZAUIkOvwEeiufK5ZetEQmQ" memberEnd="_ZAUIk-vwEeiufK5ZetEQmQ _ZAUIlOvwEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZAUIkevwEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZAUIkuvwEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_ZAUIk-vwEeiufK5ZetEQmQ" name="etre informe de la bonne transmission de la demande" type="_Izi_AOvwEeiufK5ZetEQmQ" association="_ZAUIkOvwEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_ZAUIlOvwEeiufK5ZetEQmQ" name="interface utilisateur externe" type="_FU_0gOvwEeiufK5ZetEQmQ" association="_ZAUIkOvwEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_ZnCKUOvwEeiufK5ZetEQmQ" memberEnd="_ZnCKU-vwEeiufK5ZetEQmQ _ZnCKVOvwEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZnCKUevwEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZnCKUuvwEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_ZnCKU-vwEeiufK5ZetEQmQ" name="etre informe de la position de l'ascenseur" type="_SVi5sOvwEeiufK5ZetEQmQ" association="_ZnCKUOvwEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_ZnCKVOvwEeiufK5ZetEQmQ" name="interface utilisateur interne" type="_CPXgUOvwEeiufK5ZetEQmQ" association="_ZnCKUOvwEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_g9okcOvwEeiufK5ZetEQmQ" name="Ascenseur">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_rl48kOvwEeiufK5ZetEQmQ" name="S'areter à l'étage demandé"/>
+                <packagedElement xmi:type="uml:Package" xmi:id="_H7T6AOvxEeiufK5ZetEQmQ" name="Moteur">
+                  <packagedElement xmi:type="uml:UseCase" xmi:id="_m-01YOvxEeiufK5ZetEQmQ" name="Mettre en marche"/>
+                  <packagedElement xmi:type="uml:UseCase" xmi:id="_pc1v8OvxEeiufK5ZetEQmQ" name="Arreter"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Actor" xmi:id="_I46xwOvxEeiufK5ZetEQmQ" name="Système de capteur"/>
+                <packagedElement xmi:type="uml:Association" xmi:id="_q8AcoOvxEeiufK5ZetEQmQ" memberEnd="_q8Aco-vxEeiufK5ZetEQmQ _q8AcpOvxEeiufK5ZetEQmQ">
+                  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q8AcoevxEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q8AcouvxEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                  </eAnnotations>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_q8Aco-vxEeiufK5ZetEQmQ" name="mettre en marche" type="_m-01YOvxEeiufK5ZetEQmQ" association="_q8AcoOvxEeiufK5ZetEQmQ"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_q8AcpOvxEeiufK5ZetEQmQ" name="système de capteur" type="_I46xwOvxEeiufK5ZetEQmQ" association="_q8AcoOvxEeiufK5ZetEQmQ"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Association" xmi:id="_rwploOvxEeiufK5ZetEQmQ" memberEnd="_rwplo-vxEeiufK5ZetEQmQ _rwplpOvxEeiufK5ZetEQmQ">
+                  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwploevxEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rwplouvxEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                  </eAnnotations>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_rwplo-vxEeiufK5ZetEQmQ" name="arreter" type="_pc1v8OvxEeiufK5ZetEQmQ" association="_rwploOvxEeiufK5ZetEQmQ"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_rwplpOvxEeiufK5ZetEQmQ" name="système de capteur" type="_I46xwOvxEeiufK5ZetEQmQ" association="_rwploOvxEeiufK5ZetEQmQ"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_iF7pQOvwEeiufK5ZetEQmQ" name="Systeme de controle"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_u1d28OvwEeiufK5ZetEQmQ" memberEnd="_u1d28-vwEeiufK5ZetEQmQ _u1d29OvwEeiufK5ZetEQmQ">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u1d28evwEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u1d28uvwEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_u1d28-vwEeiufK5ZetEQmQ" name="s'areter à l'étage demandé" type="_rl48kOvwEeiufK5ZetEQmQ" association="_u1d28OvwEeiufK5ZetEQmQ"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_u1d29OvwEeiufK5ZetEQmQ" name="systeme de controle" type="_iF7pQOvwEeiufK5ZetEQmQ" association="_u1d28OvwEeiufK5ZetEQmQ"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_sRet8OZjEeiaw4UvhcebdA" name="visualisation_resultats">
+              <ownedRule xmi:type="uml:Constraint" xmi:id="_PGDgIOZkEeiaw4UvhcebdA" name="Au moins un résultat disponible" visibility="protected" constrainedElement="_DPCO0OZkEeiaw4UvhcebdA">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_PGDgIeZkEeiaw4UvhcebdA" name="nbResult">
+                  <language>JAVA</language>
+                  <body>nbResult>=1</body>
+                </specification>
+              </ownedRule>
+              <ownedRule xmi:type="uml:Constraint" xmi:id="_yJ3BIOZkEeiaw4UvhcebdA" name="Au moins deux résultats disponibles" visibility="protected" constrainedElement="_DPCO0OZkEeiaw4UvhcebdA _v8wQYOZkEeiaw4UvhcebdA">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_yJ3BIeZkEeiaw4UvhcebdA" name="nbResult">
+                  <language>JAVA</language>
+                  <body>nbResult>1</body>
+                </specification>
+              </ownedRule>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_3QXdYOZjEeiaw4UvhcebdA" name="Interfaceur"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_5d3PsOZjEeiaw4UvhcebdA" name="visualisation_resultats">
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_-miZsOZjEeiaw4UvhcebdA" name="Visualiser un résultat"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_j4MSUOZkEeiaw4UvhcebdA" name="Comparer des résultats">
+                  <extend xmi:type="uml:Extend" xmi:id="_h5qvIOZvEeiaw4UvhcebdA" extendedCase="_nuM6kOZkEeiaw4UvhcebdA" extensionLocation="_h5qvIeZvEeiaw4UvhcebdA"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_nuM6kOZkEeiaw4UvhcebdA" name="Visualiser plusieurs résultats">
+                  <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_h5qvIeZvEeiaw4UvhcebdA" name="ExtensionPoint1"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_DPCO0OZkEeiaw4UvhcebdA" memberEnd="_DPNN8OZkEeiaw4UvhcebdA _DPN1AOZkEeiaw4UvhcebdA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DPMm4OZkEeiaw4UvhcebdA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DPMm4eZkEeiaw4UvhcebdA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_DPNN8OZkEeiaw4UvhcebdA" name="visualiser un résultat" type="_-miZsOZjEeiaw4UvhcebdA" association="_DPCO0OZkEeiaw4UvhcebdA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_DPN1AOZkEeiaw4UvhcebdA" name="actor1" type="_3QXdYOZjEeiaw4UvhcebdA" association="_DPCO0OZkEeiaw4UvhcebdA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_v8wQYOZkEeiaw4UvhcebdA" memberEnd="_v86BYeZkEeiaw4UvhcebdA _v86BYuZkEeiaw4UvhcebdA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v8wQYeZkEeiaw4UvhcebdA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v86BYOZkEeiaw4UvhcebdA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_v86BYeZkEeiaw4UvhcebdA" name="visualiser plusieurs résultats" type="_nuM6kOZkEeiaw4UvhcebdA" association="_v8wQYOZkEeiaw4UvhcebdA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_v86BYuZkEeiaw4UvhcebdA" name="actor1" type="_3QXdYOZjEeiaw4UvhcebdA" association="_v8wQYOZkEeiaw4UvhcebdA"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

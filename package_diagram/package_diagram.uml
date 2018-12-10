@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_udg58OZeEeiaw4UvhcebdA" name="package_diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_ug9PgOZeEeiaw4UvhcebdA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_uvT_IOZfEeiaw4UvhcebdA" name="fr">
+    <packagedElement xmi:type="uml:Package" xmi:id="_wyG9UOZfEeiaw4UvhcebdA" name="univ-avignon">
+      <packagedElement xmi:type="uml:Package" xmi:id="_yN4-0OZfEeiaw4UvhcebdA" name="m1ilsen">
+        <packagedElement xmi:type="uml:Package" xmi:id="_zq8ysOZfEeiaw4UvhcebdA" name="aa">
+          <packagedElement xmi:type="uml:Package" xmi:id="_1CTnMOZfEeiaw4UvhcebdA" name="attollo">
+            <packagedElement xmi:type="uml:Model" xmi:id="_w5EWYOZeEeiaw4UvhcebdA" name="Simulateur"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_uK5pQOvrEeiufK5ZetEQmQ" name="Package3">
+    <packagedElement xmi:type="uml:Package" xmi:id="_2wn_oOZeEeiaw4UvhcebdA" name="Visualisation_des_resultats">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_p4lOkOviEeiufK5ZetEQmQ" client="_2wn_oOZeEeiaw4UvhcebdA" supplier="_COUVQOvhEeiufK5ZetEQmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_65SeIOZeEeiaw4UvhcebdA" name="Configuration">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_LOLzQOvhEeiufK5ZetEQmQ" client="_65SeIOZeEeiaw4UvhcebdA" supplier="_0tUEEOZeEeiaw4UvhcebdA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_2SULYOviEeiufK5ZetEQmQ" client="_65SeIOZeEeiaw4UvhcebdA" supplier="_COUVQOvhEeiufK5ZetEQmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_COUVQOvhEeiufK5ZetEQmQ" name="Interfaceur">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_RQ0rIOvhEeiufK5ZetEQmQ" client="_COUVQOvhEeiufK5ZetEQmQ" supplier="_65SeIOZeEeiaw4UvhcebdA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_UfveMOvhEeiufK5ZetEQmQ" client="_COUVQOvhEeiufK5ZetEQmQ" supplier="_0tUEEOZeEeiaw4UvhcebdA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_cNRxoOvhEeiufK5ZetEQmQ" client="_COUVQOvhEeiufK5ZetEQmQ" supplier="_2wn_oOZeEeiaw4UvhcebdA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0tUEEOZeEeiaw4UvhcebdA" name="Simulateur">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_joYG8OZfEeiaw4UvhcebdA" client="_0tUEEOZeEeiaw4UvhcebdA" supplier="_2wn_oOZeEeiaw4UvhcebdA"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_SR9AsOvQEeiufK5ZetEQmQ" client="_0tUEEOZeEeiaw4UvhcebdA" supplier="_PjPXsOvQEeiufK5ZetEQmQ"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_PjPXsOvQEeiufK5ZetEQmQ" name="Utilisateur">
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_L40PMOviEeiufK5ZetEQmQ" client="_PjPXsOvQEeiufK5ZetEQmQ" supplier="_o7PSAOvhEeiufK5ZetEQmQ"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_8-vAEOviEeiufK5ZetEQmQ" client="_PjPXsOvQEeiufK5ZetEQmQ" supplier="_Ff5lUOviEeiufK5ZetEQmQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_DtvJUOvQEeiufK5ZetEQmQ" name="Ascenseur">
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_JP1f8OvQEeiufK5ZetEQmQ" client="_DtvJUOvQEeiufK5ZetEQmQ" supplier="_Fzn3wOvQEeiufK5ZetEQmQ"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Fzn3wOvQEeiufK5ZetEQmQ" name="Moteur"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_jwoF8OvvEeiufK5ZetEQmQ" client="_DtvJUOvQEeiufK5ZetEQmQ" supplier="_8aDbIOvhEeiufK5ZetEQmQ"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_mZSKQOvvEeiufK5ZetEQmQ" name="Capteur"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_olwB0OvvEeiufK5ZetEQmQ" name="Cabine"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_o7PSAOvhEeiufK5ZetEQmQ" name="Interface utilisateur exterieur">
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_Q5U7sOviEeiufK5ZetEQmQ" client="_o7PSAOvhEeiufK5ZetEQmQ" supplier="_8aDbIOvhEeiufK5ZetEQmQ"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_R84DYOviEeiufK5ZetEQmQ" client="_o7PSAOvhEeiufK5ZetEQmQ" supplier="_PjPXsOvQEeiufK5ZetEQmQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_8aDbIOvhEeiufK5ZetEQmQ" name="Système de controle">
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_RbHaIOviEeiufK5ZetEQmQ" client="_8aDbIOvhEeiufK5ZetEQmQ" supplier="_o7PSAOvhEeiufK5ZetEQmQ"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_TF_AgOviEeiufK5ZetEQmQ" client="_8aDbIOvhEeiufK5ZetEQmQ" supplier="_DtvJUOvQEeiufK5ZetEQmQ"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_DHcDsOvjEeiufK5ZetEQmQ" client="_8aDbIOvhEeiufK5ZetEQmQ" supplier="_Ff5lUOviEeiufK5ZetEQmQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_nbMmIOviEeiufK5ZetEQmQ" client="_0tUEEOZeEeiaw4UvhcebdA" supplier="_2wn_oOZeEeiaw4UvhcebdA"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ff5lUOviEeiufK5ZetEQmQ" name="Interface utilisateur de l'ascenseur">
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_93plEOviEeiufK5ZetEQmQ" client="_Ff5lUOviEeiufK5ZetEQmQ" supplier="_PjPXsOvQEeiufK5ZetEQmQ"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_BFD8QOvjEeiufK5ZetEQmQ" client="_Ff5lUOviEeiufK5ZetEQmQ" supplier="_8aDbIOvhEeiufK5ZetEQmQ"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

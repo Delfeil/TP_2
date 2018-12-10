@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1YAEQODWEeionYGE9C4Uog" name="logical_view">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1b4esODWEeionYGE9C4Uog">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dlYcAOZaEeiaw4UvhcebdA" name="fr">
+    <packagedElement xmi:type="uml:Package" xmi:id="_xEJ-UOZZEeiaw4UvhcebdA" name="univ-avignon">
+      <packagedElement xmi:type="uml:Package" xmi:id="_yjtskOZZEeiaw4UvhcebdA" name="m1ilsen">
+        <packagedElement xmi:type="uml:Package" xmi:id="_0Z81cOZZEeiaw4UvhcebdA" name="aa">
+          <packagedElement xmi:type="uml:Package" xmi:id="_1ckJAOZZEeiaw4UvhcebdA" name="attollo"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
