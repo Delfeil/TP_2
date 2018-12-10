@@ -24,6 +24,7 @@
                 <packagedElement xmi:type="uml:UseCase" xmi:id="_MWf90OvvEeiufK5ZetEQmQ" name="transmettre appel de l'ascenseur"/>
                 <packagedElement xmi:type="uml:UseCase" xmi:id="_TTHKoOvvEeiufK5ZetEQmQ" name="Transmettre le choix du niveau"/>
                 <packagedElement xmi:type="uml:UseCase" xmi:id="_X8XNsOvvEeiufK5ZetEQmQ" name="Transmettre le niveau de l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_bXFswPyFEeiD8tPaoJSIaw" name="Transmettre l'etat d'ouverture de la cabine"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Actor" xmi:id="__P7wMOvuEeiufK5ZetEQmQ" name="Interface_utilisateur_externe"/>
               <packagedElement xmi:type="uml:Actor" xmi:id="_EX03EOvvEeiufK5ZetEQmQ" name="Interface_utilisateur_interne"/>
@@ -48,6 +49,13 @@
                 </eAnnotations>
                 <ownedEnd xmi:type="uml:Property" xmi:id="_dW9OI-vvEeiufK5ZetEQmQ" name="transmettre le niveau de l'ascenseur" type="_X8XNsOvvEeiufK5ZetEQmQ" association="_dW9OIOvvEeiufK5ZetEQmQ"/>
                 <ownedEnd xmi:type="uml:Property" xmi:id="_dW9OJOvvEeiufK5ZetEQmQ" name="ascenseur" type="_HxqgsOvvEeiufK5ZetEQmQ" association="_dW9OIOvvEeiufK5ZetEQmQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_e_KmsPyFEeiD8tPaoJSIaw" memberEnd="_e_L00vyFEeiD8tPaoJSIaw _e_L00_yFEeiD8tPaoJSIaw">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e_L00PyFEeiD8tPaoJSIaw" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e_L00fyFEeiD8tPaoJSIaw" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_e_L00vyFEeiD8tPaoJSIaw" name="transmettre l'etat d'ouverture de la cabine" type="_bXFswPyFEeiD8tPaoJSIaw" association="_e_KmsPyFEeiD8tPaoJSIaw"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_e_L00_yFEeiD8tPaoJSIaw" name="ascenseur" type="_HxqgsOvvEeiufK5ZetEQmQ" association="_e_KmsPyFEeiD8tPaoJSIaw"/>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_1VtOIODqEeionYGE9C4Uog" memberEnd="_1VtOI-DqEeionYGE9C4Uog _1V2YEODqEeionYGE9C4Uog">
@@ -380,6 +388,7 @@
               <packagedElement xmi:type="uml:Package" xmi:id="_-5JLYOvvEeiufK5ZetEQmQ" name="Utilisateur simule">
                 <packagedElement xmi:type="uml:UseCase" xmi:id="_Izi_AOvwEeiufK5ZetEQmQ" name="Etre informe de la bonne transmission de la demande"/>
                 <packagedElement xmi:type="uml:UseCase" xmi:id="_SVi5sOvwEeiufK5ZetEQmQ" name="Etre informe de la position de l'ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_MxBQsPyEEeiD8tPaoJSIaw" name="Etre informe si la cabine est ouverte"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Actor" xmi:id="_CPXgUOvwEeiufK5ZetEQmQ" name="Interface utilisateur interne">
                 <generalization xmi:type="uml:Generalization" xmi:id="_Wcp5AOvwEeiufK5ZetEQmQ" general="_FU_0gOvwEeiufK5ZetEQmQ"/>
@@ -405,7 +414,6 @@
                   <packagedElement xmi:type="uml:UseCase" xmi:id="_m-01YOvxEeiufK5ZetEQmQ" name="Mettre en marche"/>
                   <packagedElement xmi:type="uml:UseCase" xmi:id="_pc1v8OvxEeiufK5ZetEQmQ" name="Arreter"/>
                 </packagedElement>
-                <packagedElement xmi:type="uml:Actor" xmi:id="_I46xwOvxEeiufK5ZetEQmQ" name="Système de capteur"/>
                 <packagedElement xmi:type="uml:Association" xmi:id="_q8AcoOvxEeiufK5ZetEQmQ" memberEnd="_q8Aco-vxEeiufK5ZetEQmQ _q8AcpOvxEeiufK5ZetEQmQ">
                   <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q8AcoevxEeiufK5ZetEQmQ" source="org.eclipse.papyrus">
                     <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q8AcouvxEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
@@ -418,7 +426,7 @@
                     <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rwplouvxEeiufK5ZetEQmQ" key="nature" value="UML_Nature"/>
                   </eAnnotations>
                   <ownedEnd xmi:type="uml:Property" xmi:id="_rwplo-vxEeiufK5ZetEQmQ" name="arreter" type="_pc1v8OvxEeiufK5ZetEQmQ" association="_rwploOvxEeiufK5ZetEQmQ"/>
-                  <ownedEnd xmi:type="uml:Property" xmi:id="_rwplpOvxEeiufK5ZetEQmQ" name="système de capteur" type="_I46xwOvxEeiufK5ZetEQmQ" association="_rwploOvxEeiufK5ZetEQmQ"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_rwplpOvxEeiufK5ZetEQmQ" name="système de capteur" type="_YMOLsPxjEeiMlcNq83Zn9A" association="_rwploOvxEeiufK5ZetEQmQ"/>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Package" xmi:id="_VIFpIPxfEeiMlcNq83Zn9A" name="Cabine">
                   <packagedElement xmi:type="uml:UseCase" xmi:id="_DxSDcPxhEeiMlcNq83Zn9A" name="Ouvrir les portes"/>
@@ -450,6 +458,7 @@
                 <packagedElement xmi:type="uml:Actor" xmi:id="_UikZ4PxiEeiMlcNq83Zn9A" name="Moteur"/>
                 <packagedElement xmi:type="uml:UseCase" xmi:id="_M6QvQPxjEeiMlcNq83Zn9A" name="Mettre en marche"/>
                 <packagedElement xmi:type="uml:Actor" xmi:id="_YMOLsPxjEeiMlcNq83Zn9A" name="Ascenseur"/>
+                <packagedElement xmi:type="uml:UseCase" xmi:id="_8on8sPx2EeiD8tPaoJSIaw" name="Informer de l'étage actuel de la cabine"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Actor" xmi:id="_iF7pQOvwEeiufK5ZetEQmQ" name="Systeme de controle"/>
               <packagedElement xmi:type="uml:Association" xmi:id="_u1d28OvwEeiufK5ZetEQmQ" memberEnd="_u1d28-vwEeiufK5ZetEQmQ _u1d29OvwEeiufK5ZetEQmQ">
@@ -465,6 +474,22 @@
                 </eAnnotations>
                 <ownedEnd xmi:type="uml:Property" xmi:id="_fdZTQvxjEeiMlcNq83Zn9A" name="mettre en marche" type="_M6QvQPxjEeiMlcNq83Zn9A" association="_fdYsMPxjEeiMlcNq83Zn9A"/>
                 <ownedEnd xmi:type="uml:Property" xmi:id="_fdZTQ_xjEeiMlcNq83Zn9A" name="systeme de controle" type="_iF7pQOvwEeiufK5ZetEQmQ" association="_fdYsMPxjEeiMlcNq83Zn9A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_5yPlcPx2EeiD8tPaoJSIaw" name="Capteur"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_EJ7K8Px3EeiD8tPaoJSIaw" memberEnd="_EKAqgPx3EeiD8tPaoJSIaw _EKBRkPx3EeiD8tPaoJSIaw">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EJ-OQPx3EeiD8tPaoJSIaw" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EJ-OQfx3EeiD8tPaoJSIaw" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_EKAqgPx3EeiD8tPaoJSIaw" name="informer de l'étage actuel de la cabine" type="_8on8sPx2EeiD8tPaoJSIaw" association="_EJ7K8Px3EeiD8tPaoJSIaw"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_EKBRkPx3EeiD8tPaoJSIaw" name="capteur" type="_5yPlcPx2EeiD8tPaoJSIaw" association="_EJ7K8Px3EeiD8tPaoJSIaw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Actor" xmi:id="_PowS0PyEEeiD8tPaoJSIaw" name="Systeme de controle"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_S0pnEPyEEeiD8tPaoJSIaw" memberEnd="_S0rcQvyEEeiD8tPaoJSIaw _S0rcQ_yEEeiD8tPaoJSIaw">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S0rcQPyEEeiD8tPaoJSIaw" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S0rcQfyEEeiD8tPaoJSIaw" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_S0rcQvyEEeiD8tPaoJSIaw" name="etre informe si la cabine est ouverte" type="_MxBQsPyEEeiD8tPaoJSIaw" association="_S0pnEPyEEeiD8tPaoJSIaw"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_S0rcQ_yEEeiD8tPaoJSIaw" name="systeme de controle" type="_PowS0PyEEeiD8tPaoJSIaw" association="_S0pnEPyEEeiD8tPaoJSIaw"/>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_sRet8OZjEeiaw4UvhcebdA" name="visualisation_resultats">
