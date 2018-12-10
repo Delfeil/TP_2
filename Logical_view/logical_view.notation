@@ -156,7 +156,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Alw-I_xrEeiMlcNq83Zn9A"/>
     </children>
     <element xmi:type="uml:Package" href="logical_view.uml#_AlvI8PxrEeiMlcNq83Zn9A"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AlwXEfxrEeiMlcNq83Zn9A" x="40" y="100" width="441" height="381"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AlwXEfxrEeiMlcNq83Zn9A" x="40" y="200" width="441" height="381"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_VkYikfxqEeiMlcNq83Zn9A" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_VkYikvxqEeiMlcNq83Zn9A"/>
@@ -203,7 +203,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_-0VAQfxrEeiMlcNq83Zn9A"/>
     <element xmi:type="uml:InterfaceRealization" href="logical_view.uml#_-z1RAPxrEeiMlcNq83Zn9A"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-0VAQvxrEeiMlcNq83Zn9A" points="[280, 300, -643984, -643984]$[181, 300, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-0VAQvxrEeiMlcNq83Zn9A" points="[280, 400, -643984, -643984]$[181, 400, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-1HDYPxrEeiMlcNq83Zn9A" id="(0.0,0.4968944099378882)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-1HDYfxrEeiMlcNq83Zn9A" id="(1.0,0.4419889502762431)"/>
   </edges>
