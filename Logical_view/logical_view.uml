@@ -16,6 +16,7 @@
                 <packagedElement xmi:type="uml:Class" xmi:id="_ylStAPxqEeiMlcNq83Zn9A" name="Moteur">
                   <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_XHk-MPxrEeiMlcNq83Zn9A" client="_ylStAPxqEeiMlcNq83Zn9A" supplier="_gChVYPxqEeiMlcNq83Zn9A" contract="_gChVYPxqEeiMlcNq83Zn9A"/>
                 </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_Wl3Q4PxuEeiD8tPaoJSIaw" client="_ylStAPxqEeiMlcNq83Zn9A" supplier="_RPsdcPxuEeiD8tPaoJSIaw"/>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_AlvI8PxrEeiMlcNq83Zn9A" name="Ascenseur">
@@ -27,6 +28,54 @@
                   <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_-z1RAPxrEeiMlcNq83Zn9A" client="_F2YjMPxrEeiMlcNq83Zn9A" supplier="_77w3sPxrEeiMlcNq83Zn9A" contract="_77w3sPxrEeiMlcNq83Zn9A"/>
                 </packagedElement>
                 <packagedElement xmi:type="uml:Usage" xmi:id="_NiEcgPxrEeiMlcNq83Zn9A" client="_F2YjMPxrEeiMlcNq83Zn9A" supplier="_gChVYPxqEeiMlcNq83Zn9A"/>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_VzqX4PxuEeiD8tPaoJSIaw" client="_F2YjMPxrEeiMlcNq83Zn9A" supplier="_RPsdcPxuEeiD8tPaoJSIaw"/>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_xz0P8PxuEeiD8tPaoJSIaw" client="_F2YjMPxrEeiMlcNq83Zn9A" supplier="_oedqIPxuEeiD8tPaoJSIaw"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Hb95kPxuEeiD8tPaoJSIaw" name="Cabine">
+              <packagedElement xmi:type="uml:Package" xmi:id="_LN0akPxuEeiD8tPaoJSIaw" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_RPsdcPxuEeiD8tPaoJSIaw" name="ICabine"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_OaqxEPxuEeiD8tPaoJSIaw" name="Implementation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_TUauQPxuEeiD8tPaoJSIaw" name="Cabine">
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Y6ipQPxuEeiD8tPaoJSIaw" client="_TUauQPxuEeiD8tPaoJSIaw" supplier="_RPsdcPxuEeiD8tPaoJSIaw" contract="_RPsdcPxuEeiD8tPaoJSIaw"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_exG0APxuEeiD8tPaoJSIaw" name="SystemeControle">
+              <packagedElement xmi:type="uml:Package" xmi:id="_hwMbUPxuEeiD8tPaoJSIaw" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_oedqIPxuEeiD8tPaoJSIaw" name="ISystemeControle"/>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_M_9RIPxvEeiD8tPaoJSIaw" client="_oedqIPxuEeiD8tPaoJSIaw" supplier="_EOwhQPxvEeiD8tPaoJSIaw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_kGT-IPxuEeiD8tPaoJSIaw" name="Implementation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_ryV1sPxuEeiD8tPaoJSIaw" name="SystemeControle">
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_vevO8PxuEeiD8tPaoJSIaw" client="_ryV1sPxuEeiD8tPaoJSIaw" supplier="_oedqIPxuEeiD8tPaoJSIaw" contract="_oedqIPxuEeiD8tPaoJSIaw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_wwE7APxuEeiD8tPaoJSIaw" client="_ryV1sPxuEeiD8tPaoJSIaw" supplier="_77w3sPxrEeiMlcNq83Zn9A"/>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_xdEHYPxvEeiD8tPaoJSIaw" client="_ryV1sPxuEeiD8tPaoJSIaw" supplier="_bEWY8vxvEeiD8tPaoJSIaw"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_4D9YUPxuEeiD8tPaoJSIaw" name="InterfaceUInterne">
+              <packagedElement xmi:type="uml:Package" xmi:id="_7exSUPxuEeiD8tPaoJSIaw" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_EOwhQPxvEeiD8tPaoJSIaw" name="IInterfaceUInterne"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_9AuNQPxuEeiD8tPaoJSIaw" name="Implementation">
+                <packagedElement xmi:type="uml:Class" xmi:id="__ff80PxuEeiD8tPaoJSIaw" name="InterfaceUInterne">
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_QCSZsPxvEeiD8tPaoJSIaw" client="__ff80PxuEeiD8tPaoJSIaw" supplier="_EOwhQPxvEeiD8tPaoJSIaw" contract="_EOwhQPxvEeiD8tPaoJSIaw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_JCbroPxvEeiD8tPaoJSIaw" client="__ff80PxuEeiD8tPaoJSIaw" supplier="_oedqIPxuEeiD8tPaoJSIaw"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_bEWY8PxvEeiD8tPaoJSIaw" name="InterfaceUExterne">
+              <packagedElement xmi:type="uml:Package" xmi:id="_bEWY8fxvEeiD8tPaoJSIaw" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_bEWY8vxvEeiD8tPaoJSIaw" name="IInterfaceUExterne"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_bEWY8_xvEeiD8tPaoJSIaw" name="Implementation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_bEWY9PxvEeiD8tPaoJSIaw" name="InterfaceUExterne">
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_bEWY9fxvEeiD8tPaoJSIaw" client="_bEWY9PxvEeiD8tPaoJSIaw" supplier="_bEWY8vxvEeiD8tPaoJSIaw" contract="_bEWY8vxvEeiD8tPaoJSIaw"/>
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_4D21MPxvEeiD8tPaoJSIaw" client="_bEWY9PxvEeiD8tPaoJSIaw" supplier="_bEWY8vxvEeiD8tPaoJSIaw" contract="_bEWY8vxvEeiD8tPaoJSIaw"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_bEWY9vxvEeiD8tPaoJSIaw" client="_bEWY9PxvEeiD8tPaoJSIaw" supplier="_oedqIPxuEeiD8tPaoJSIaw"/>
               </packagedElement>
             </packagedElement>
           </packagedElement>
