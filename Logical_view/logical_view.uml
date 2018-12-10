@@ -7,7 +7,29 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_xEJ-UOZZEeiaw4UvhcebdA" name="univ-avignon">
       <packagedElement xmi:type="uml:Package" xmi:id="_yjtskOZZEeiaw4UvhcebdA" name="m1ilsen">
         <packagedElement xmi:type="uml:Package" xmi:id="_0Z81cOZZEeiaw4UvhcebdA" name="aa">
-          <packagedElement xmi:type="uml:Package" xmi:id="_1ckJAOZZEeiaw4UvhcebdA" name="attollo"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_1ckJAOZZEeiaw4UvhcebdA" name="attollo">
+            <packagedElement xmi:type="uml:Package" xmi:id="_XVJVkPxqEeiMlcNq83Zn9A" name="Moteur">
+              <packagedElement xmi:type="uml:Package" xmi:id="_qpLyEPxqEeiMlcNq83Zn9A" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_gChVYPxqEeiMlcNq83Zn9A" name="IMoteur"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_u48-IPxqEeiMlcNq83Zn9A" name="Implementation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_ylStAPxqEeiMlcNq83Zn9A" name="Moteur">
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_XHk-MPxrEeiMlcNq83Zn9A" client="_ylStAPxqEeiMlcNq83Zn9A" supplier="_gChVYPxqEeiMlcNq83Zn9A" contract="_gChVYPxqEeiMlcNq83Zn9A"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_AlvI8PxrEeiMlcNq83Zn9A" name="Ascenseur">
+              <packagedElement xmi:type="uml:Package" xmi:id="_CHB8kPxrEeiMlcNq83Zn9A" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_77w3sPxrEeiMlcNq83Zn9A" name="IAscenseur"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_DTwOYPxrEeiMlcNq83Zn9A" name="Implementation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_F2YjMPxrEeiMlcNq83Zn9A" name="Ascenseur">
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_-z1RAPxrEeiMlcNq83Zn9A" client="_F2YjMPxrEeiMlcNq83Zn9A" supplier="_77w3sPxrEeiMlcNq83Zn9A" contract="_77w3sPxrEeiMlcNq83Zn9A"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_NiEcgPxrEeiMlcNq83Zn9A" client="_F2YjMPxrEeiMlcNq83Zn9A" supplier="_gChVYPxqEeiMlcNq83Zn9A"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
         </packagedElement>
       </packagedElement>
     </packagedElement>
