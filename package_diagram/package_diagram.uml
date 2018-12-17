@@ -14,7 +14,7 @@
       </packagedElement>
     </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_uK5pQOvrEeiufK5ZetEQmQ" name="Package3">
+  <packagedElement xmi:type="uml:Package" xmi:id="_uK5pQOvrEeiufK5ZetEQmQ" name="Logiciel">
     <packagedElement xmi:type="uml:Package" xmi:id="_2wn_oOZeEeiaw4UvhcebdA" name="Visualisation_des_resultats">
       <packagedElement xmi:type="uml:Dependency" xmi:id="_p4lOkOviEeiufK5ZetEQmQ" client="_2wn_oOZeEeiaw4UvhcebdA" supplier="_COUVQOvhEeiufK5ZetEQmQ"/>
     </packagedElement>

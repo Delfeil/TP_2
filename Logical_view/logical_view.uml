@@ -8,31 +8,6 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_yjtskOZZEeiaw4UvhcebdA" name="m1ilsen">
         <packagedElement xmi:type="uml:Package" xmi:id="_0Z81cOZZEeiaw4UvhcebdA" name="aa">
           <packagedElement xmi:type="uml:Package" xmi:id="_1ckJAOZZEeiaw4UvhcebdA" name="attollo">
-            <packagedElement xmi:type="uml:Package" xmi:id="_XVJVkPxqEeiMlcNq83Zn9A" name="Moteur">
-              <packagedElement xmi:type="uml:Package" xmi:id="_qpLyEPxqEeiMlcNq83Zn9A" name="Interface">
-                <packagedElement xmi:type="uml:Interface" xmi:id="_gChVYPxqEeiMlcNq83Zn9A" name="IMoteur">
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_anSd8Px5EeiD8tPaoJSIaw" name="arret"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_eRnaoPx5EeiD8tPaoJSIaw" name="miseEnMarche"/>
-                </packagedElement>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Package" xmi:id="_u48-IPxqEeiMlcNq83Zn9A" name="Implementation">
-                <packagedElement xmi:type="uml:Class" xmi:id="_ylStAPxqEeiMlcNq83Zn9A" name="Moteur">
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_U-1nsPx5EeiD8tPaoJSIaw" name="marche" visibility="private">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-                  </ownedAttribute>
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_gT-7APx5EeiD8tPaoJSIaw" name="arrete" visibility="private">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-                  </ownedAttribute>
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_vhXrMPx5EeiD8tPaoJSIaw" name="vitesse" visibility="private">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-                  </ownedAttribute>
-                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_XHk-MPxrEeiMlcNq83Zn9A" client="_ylStAPxqEeiMlcNq83Zn9A" supplier="_gChVYPxqEeiMlcNq83Zn9A" contract="_gChVYPxqEeiMlcNq83Zn9A"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_3MpU0Px5EeiD8tPaoJSIaw" name="miseEnMarche"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_33FY8Px5EeiD8tPaoJSIaw" name="arret"/>
-                </packagedElement>
-                <packagedElement xmi:type="uml:Usage" xmi:id="_Wl3Q4PxuEeiD8tPaoJSIaw" client="_ylStAPxqEeiMlcNq83Zn9A" supplier="_RPsdcPxuEeiD8tPaoJSIaw"/>
-              </packagedElement>
-            </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_AlvI8PxrEeiMlcNq83Zn9A" name="Ascenseur">
               <packagedElement xmi:type="uml:Package" xmi:id="_CHB8kPxrEeiMlcNq83Zn9A" name="Interface">
                 <packagedElement xmi:type="uml:Interface" xmi:id="_77w3sPxrEeiMlcNq83Zn9A" name="IAscenseur">
@@ -76,40 +51,98 @@
                   </ownedOperation>
                   <ownedOperation xmi:type="uml:Operation" xmi:id="_lIcukPyEEeiD8tPaoJSIaw" name="demandeOuvertureCabine"/>
                 </packagedElement>
-                <packagedElement xmi:type="uml:Usage" xmi:id="_NiEcgPxrEeiMlcNq83Zn9A" client="_F2YjMPxrEeiMlcNq83Zn9A" supplier="_gChVYPxqEeiMlcNq83Zn9A"/>
-                <packagedElement xmi:type="uml:Usage" xmi:id="_VzqX4PxuEeiD8tPaoJSIaw" client="_F2YjMPxrEeiMlcNq83Zn9A" supplier="_RPsdcPxuEeiD8tPaoJSIaw"/>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_NiEcgPxrEeiMlcNq83Zn9A" client="_RM5VMPx7EeiD8tPaoJSIaw" supplier="_gChVYPxqEeiMlcNq83Zn9A"/>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_VzqX4PxuEeiD8tPaoJSIaw" client="_53NoMPx6EeiD8tPaoJSIaw" supplier="_RPsdcPxuEeiD8tPaoJSIaw"/>
                 <packagedElement xmi:type="uml:Usage" xmi:id="_xz0P8PxuEeiD8tPaoJSIaw" client="_F2YjMPxrEeiMlcNq83Zn9A" supplier="_oedqIPxuEeiD8tPaoJSIaw"/>
               </packagedElement>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Package" xmi:id="_Hb95kPxuEeiD8tPaoJSIaw" name="Cabine">
-              <packagedElement xmi:type="uml:Package" xmi:id="_LN0akPxuEeiD8tPaoJSIaw" name="Interface">
-                <packagedElement xmi:type="uml:Interface" xmi:id="_RPsdcPxuEeiD8tPaoJSIaw" name="ICabine">
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_LQNmQPx5EeiD8tPaoJSIaw" name="arreter"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_Lr-8QPx5EeiD8tPaoJSIaw" name="ouvrir"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_NiJMoPx5EeiD8tPaoJSIaw" name="mettreEnMouvement"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_XVJVkPxqEeiMlcNq83Zn9A" name="Moteur">
+                <packagedElement xmi:type="uml:Package" xmi:id="_qpLyEPxqEeiMlcNq83Zn9A" name="Interface">
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_gChVYPxqEeiMlcNq83Zn9A" name="IMoteur">
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_anSd8Px5EeiD8tPaoJSIaw" name="arret"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_eRnaoPx5EeiD8tPaoJSIaw" name="miseEnMarche"/>
+                  </packagedElement>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_u48-IPxqEeiMlcNq83Zn9A" name="Implementation">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_ylStAPxqEeiMlcNq83Zn9A" name="Moteur">
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_U-1nsPx5EeiD8tPaoJSIaw" name="marche" visibility="private">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_gT-7APx5EeiD8tPaoJSIaw" name="arrete" visibility="private">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_vhXrMPx5EeiD8tPaoJSIaw" name="vitesse" visibility="private">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+                    </ownedAttribute>
+                    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_XHk-MPxrEeiMlcNq83Zn9A" client="_ylStAPxqEeiMlcNq83Zn9A" supplier="_gChVYPxqEeiMlcNq83Zn9A" contract="_gChVYPxqEeiMlcNq83Zn9A"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_3MpU0Px5EeiD8tPaoJSIaw" name="miseEnMarche"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_33FY8Px5EeiD8tPaoJSIaw" name="arret"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Usage" xmi:id="_Wl3Q4PxuEeiD8tPaoJSIaw" client="_ylStAPxqEeiMlcNq83Zn9A" supplier="_RPsdcPxuEeiD8tPaoJSIaw"/>
                 </packagedElement>
               </packagedElement>
-              <packagedElement xmi:type="uml:Package" xmi:id="_OaqxEPxuEeiD8tPaoJSIaw" name="Implementation">
-                <packagedElement xmi:type="uml:Class" xmi:id="_TUauQPxuEeiD8tPaoJSIaw" name="Cabine">
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_s_0J4Px4EeiD8tPaoJSIaw" name="ouverte" visibility="private">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-                  </ownedAttribute>
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_46mg4Px4EeiD8tPaoJSIaw" name="fermée" visibility="private">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-                  </ownedAttribute>
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_8kTygPx4EeiD8tPaoJSIaw" name="mouvement" visibility="private">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-                  </ownedAttribute>
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_B9lu4Px6EeiD8tPaoJSIaw" name="position" visibility="private">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-                  </ownedAttribute>
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_mU-eAPyCEeiD8tPaoJSIaw" name="precision" visibility="private">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
-                  </ownedAttribute>
-                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Y6ipQPxuEeiD8tPaoJSIaw" client="_TUauQPxuEeiD8tPaoJSIaw" supplier="_RPsdcPxuEeiD8tPaoJSIaw" contract="_RPsdcPxuEeiD8tPaoJSIaw"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_AOJnAPx5EeiD8tPaoJSIaw" name="mettreEnMouvement"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_HJhdsPx5EeiD8tPaoJSIaw" name="ouvrir"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_JDvusPx5EeiD8tPaoJSIaw" name="arreter"/>
+              <packagedElement xmi:type="uml:Package" xmi:id="_1x-_kPx3EeiD8tPaoJSIaw" name="Capteur">
+                <packagedElement xmi:type="uml:Package" xmi:id="_2xMZ0Px3EeiD8tPaoJSIaw" name="Interface">
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_7jtGkPx3EeiD8tPaoJSIaw" name="ICapteur">
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_Lw9bgPx8EeiD8tPaoJSIaw" name="informeDetection" concurrency="guarded">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jhTrQPx8EeiD8tPaoJSIaw" name="capteur" type="_7jtGkPx3EeiD8tPaoJSIaw" direction="return"/>
+                    </ownedOperation>
+                  </packagedElement>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_4Mi9gPx3EeiD8tPaoJSIaw" name="Implementation">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_98BBwPx3EeiD8tPaoJSIaw" name="Capteur">
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_VsSRoPx7EeiD8tPaoJSIaw" name="detection">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_Y8L8IPx7EeiD8tPaoJSIaw" name="nonDetection">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_WTMrMPx8EeiD8tPaoJSIaw" name="etage">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_aRDn4Px8EeiD8tPaoJSIaw" name="position">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedAttribute>
+                    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_B7xb4Px4EeiD8tPaoJSIaw" client="_98BBwPx3EeiD8tPaoJSIaw" supplier="_7jtGkPx3EeiD8tPaoJSIaw" contract="_7jtGkPx3EeiD8tPaoJSIaw"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_kzvjgPx8EeiD8tPaoJSIaw" name="informeDetection" concurrency="guarded">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kzvjgfx8EeiD8tPaoJSIaw" name="numEtage" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kzvjgvx8EeiD8tPaoJSIaw" name="capteur" type="_7jtGkPx3EeiD8tPaoJSIaw" direction="return"/>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Usage" xmi:id="_AKvjIPx4EeiD8tPaoJSIaw" client="_98BBwPx3EeiD8tPaoJSIaw" supplier="_77w3sPxrEeiMlcNq83Zn9A"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_Hb95kPxuEeiD8tPaoJSIaw" name="Cabine">
+                <packagedElement xmi:type="uml:Package" xmi:id="_LN0akPxuEeiD8tPaoJSIaw" name="Interface">
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_RPsdcPxuEeiD8tPaoJSIaw" name="ICabine">
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_LQNmQPx5EeiD8tPaoJSIaw" name="arreter"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_Lr-8QPx5EeiD8tPaoJSIaw" name="ouvrir"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_NiJMoPx5EeiD8tPaoJSIaw" name="mettreEnMouvement"/>
+                  </packagedElement>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_OaqxEPxuEeiD8tPaoJSIaw" name="Implementation">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_TUauQPxuEeiD8tPaoJSIaw" name="Cabine">
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_s_0J4Px4EeiD8tPaoJSIaw" name="ouverte" visibility="private">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_46mg4Px4EeiD8tPaoJSIaw" name="fermée" visibility="private">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_8kTygPx4EeiD8tPaoJSIaw" name="mouvement" visibility="private">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_B9lu4Px6EeiD8tPaoJSIaw" name="position" visibility="private">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_mU-eAPyCEeiD8tPaoJSIaw" name="precision" visibility="private">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+                    </ownedAttribute>
+                    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Y6ipQPxuEeiD8tPaoJSIaw" client="_TUauQPxuEeiD8tPaoJSIaw" supplier="_RPsdcPxuEeiD8tPaoJSIaw" contract="_RPsdcPxuEeiD8tPaoJSIaw"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_AOJnAPx5EeiD8tPaoJSIaw" name="mettreEnMouvement"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_HJhdsPx5EeiD8tPaoJSIaw" name="ouvrir"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_JDvusPx5EeiD8tPaoJSIaw" name="arreter"/>
+                  </packagedElement>
                 </packagedElement>
               </packagedElement>
             </packagedElement>
@@ -337,41 +370,8 @@
                     </ownedParameter>
                   </ownedOperation>
                 </packagedElement>
-                <packagedElement xmi:type="uml:Usage" xmi:id="_cnHIAPx2EeiD8tPaoJSIaw" client="_XNUY0Px2EeiD8tPaoJSIaw" supplier="_bEWY8vxvEeiD8tPaoJSIaw"/>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_cnHIAPx2EeiD8tPaoJSIaw" client="_U83isPyCEeiD8tPaoJSIaw" supplier="_bEWY8vxvEeiD8tPaoJSIaw"/>
                 <packagedElement xmi:type="uml:Usage" xmi:id="_d3BQsPx2EeiD8tPaoJSIaw" client="_XNUY0Px2EeiD8tPaoJSIaw" supplier="_EOwhQPxvEeiD8tPaoJSIaw"/>
-              </packagedElement>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Package" xmi:id="_1x-_kPx3EeiD8tPaoJSIaw" name="Capteur">
-              <packagedElement xmi:type="uml:Package" xmi:id="_2xMZ0Px3EeiD8tPaoJSIaw" name="Interface">
-                <packagedElement xmi:type="uml:Interface" xmi:id="_7jtGkPx3EeiD8tPaoJSIaw" name="ICapteur">
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_Lw9bgPx8EeiD8tPaoJSIaw" name="informeDetection" concurrency="guarded">
-                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_jhTrQPx8EeiD8tPaoJSIaw" name="capteur" type="_7jtGkPx3EeiD8tPaoJSIaw" direction="return"/>
-                  </ownedOperation>
-                </packagedElement>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Package" xmi:id="_4Mi9gPx3EeiD8tPaoJSIaw" name="Implementation">
-                <packagedElement xmi:type="uml:Class" xmi:id="_98BBwPx3EeiD8tPaoJSIaw" name="Capteur">
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_VsSRoPx7EeiD8tPaoJSIaw" name="detection">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-                  </ownedAttribute>
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_Y8L8IPx7EeiD8tPaoJSIaw" name="nonDetection">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-                  </ownedAttribute>
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_WTMrMPx8EeiD8tPaoJSIaw" name="etage">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-                  </ownedAttribute>
-                  <ownedAttribute xmi:type="uml:Property" xmi:id="_aRDn4Px8EeiD8tPaoJSIaw" name="position">
-                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                  </ownedAttribute>
-                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_B7xb4Px4EeiD8tPaoJSIaw" client="_98BBwPx3EeiD8tPaoJSIaw" supplier="_7jtGkPx3EeiD8tPaoJSIaw" contract="_7jtGkPx3EeiD8tPaoJSIaw"/>
-                  <ownedOperation xmi:type="uml:Operation" xmi:id="_kzvjgPx8EeiD8tPaoJSIaw" name="informeDetection" concurrency="guarded">
-                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_kzvjgfx8EeiD8tPaoJSIaw" name="numEtage" direction="return">
-                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-                    </ownedParameter>
-                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_kzvjgvx8EeiD8tPaoJSIaw" name="capteur" type="_7jtGkPx3EeiD8tPaoJSIaw" direction="return"/>
-                  </ownedOperation>
-                </packagedElement>
-                <packagedElement xmi:type="uml:Usage" xmi:id="_AKvjIPx4EeiD8tPaoJSIaw" client="_98BBwPx3EeiD8tPaoJSIaw" supplier="_77w3sPxrEeiMlcNq83Zn9A"/>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_6lFI4Px8EeiD8tPaoJSIaw" memberEnd="_6lHlIvx8EeiD8tPaoJSIaw _6lIzQvx8EeiD8tPaoJSIaw">
@@ -418,6 +418,7 @@
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ywfssfx_EeiD8tPaoJSIaw" value="*"/>
               </ownedEnd>
             </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_T8YOQAHhEemGzp9HkMCDsA" name="Simulation"/>
           </packagedElement>
         </packagedElement>
       </packagedElement>

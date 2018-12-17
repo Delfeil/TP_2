@@ -164,9 +164,9 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_Uf2L4evhEeiufK5ZetEQmQ"/>
     <element xmi:type="uml:Dependency" href="package_diagram.uml#_UfveMOvhEeiufK5ZetEQmQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Uf2L4uvhEeiufK5ZetEQmQ" points="[120, -19, -643984, -643984]$[120, 60, -643984, -643984]$[201, 60, -643984, -643984]$[201, 160, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Uf2L4uvhEeiufK5ZetEQmQ" points="[120, -19, -643984, -643984]$[120, 60, -643984, -643984]$[260, 60, -643984, -643984]$[260, 166, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UgGqkOvhEeiufK5ZetEQmQ" id="(0.4975124378109453,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UgGqkevhEeiufK5ZetEQmQ" id="(0.08409658617818484,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UgGqkevhEeiufK5ZetEQmQ" id="(0.13322231473771856,0.0405616224648986)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_cNZtcOvhEeiufK5ZetEQmQ" type="Dependency_Edge" source="_COUVQevhEeiufK5ZetEQmQ" target="_2womsOZeEeiaw4UvhcebdA">
     <children xmi:type="notation:DecorationNode" xmi:id="_cNZtc-vhEeiufK5ZetEQmQ" type="Dependency_NameLabel">
