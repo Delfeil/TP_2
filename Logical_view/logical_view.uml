@@ -419,6 +419,197 @@
                   <packagedElement xmi:type="uml:Usage" xmi:id="_h3vUIPx2EeiD8tPaoJSIaw" client="_bEWY9PxvEeiD8tPaoJSIaw" supplier="_ZCsmEPx2EeiD8tPaoJSIaw"/>
                 </packagedElement>
               </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_hhiDEAHmEemYr92oKuoaIQ" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_rSPIIAHmEemYr92oKuoaIQ" name="ISimulateur">
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="__jI1gAHmEemYr92oKuoaIQ" name="lancerSimulation"/>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_G6fdkAHnEemYr92oKuoaIQ" name="choisirUneConfig">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_K2mt0AHnEemYr92oKuoaIQ" name="config"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_MYQxAAHrEemYr92oKuoaIQ" name="choisirConfiguration">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_WRCM8AHrEemYr92oKuoaIQ" name="fichier">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_uygw8AHmEemYr92oKuoaIQ" name="Implémentation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_xa03AAHmEemYr92oKuoaIQ" name="Simulateur">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_mAJG8wHnEemYr92oKuoaIQ" name="iinterfaceuexterne" type="_bEWY8vxvEeiD8tPaoJSIaw" association="_mAJG8AHnEemYr92oKuoaIQ">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mAJG9AHnEemYr92oKuoaIQ" value="1"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mAJG9QHnEemYr92oKuoaIQ" value="*"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_pwOGUwHnEemYr92oKuoaIQ" name="iutilisateur" type="_ZCsmEPx2EeiD8tPaoJSIaw" association="_pwOGUAHnEemYr92oKuoaIQ">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pwOGVAHnEemYr92oKuoaIQ" value="1"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pwOGVQHnEemYr92oKuoaIQ" value="*"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_twuuYwHnEemYr92oKuoaIQ" name="isystemecontrole" type="_oedqIPxuEeiD8tPaoJSIaw" association="_twuuYAHnEemYr92oKuoaIQ">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_twuuZAHnEemYr92oKuoaIQ"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_twuuZQHnEemYr92oKuoaIQ" value="*"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_2a0wsgHnEemYr92oKuoaIQ" name="iinterfaceuinterne" type="_EOwhQPxvEeiD8tPaoJSIaw" association="_2aq_sAHnEemYr92oKuoaIQ">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2a0wswHnEemYr92oKuoaIQ"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2a0wtAHnEemYr92oKuoaIQ" value="*"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_O5VuAwHoEemYr92oKuoaIQ" name="iascenseur" type="_77w3sPxrEeiMlcNq83Zn9A" association="_O5VuAAHoEemYr92oKuoaIQ">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O5VuBAHoEemYr92oKuoaIQ"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O5VuBQHoEemYr92oKuoaIQ" value="*"/>
+                  </ownedAttribute>
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_9CxxkAHmEemYr92oKuoaIQ" client="_xa03AAHmEemYr92oKuoaIQ" supplier="_rSPIIAHmEemYr92oKuoaIQ" contract="_rSPIIAHmEemYr92oKuoaIQ"/>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_N72AcAHnEemYr92oKuoaIQ" name="lancerSimulation"/>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_N7_xcAHnEemYr92oKuoaIQ" name="choisirUneConfig">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_N7_xcQHnEemYr92oKuoaIQ" name="config"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_5tfpEAHsEemYr92oKuoaIQ" name="enregisterLesResultats"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_quXXUAHsEemYr92oKuoaIQ" client="_xa03AAHmEemYr92oKuoaIQ" supplier="_inEncAHpEemYr92oKuoaIQ"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_mAJG8AHnEemYr92oKuoaIQ" memberEnd="_mAJG8wHnEemYr92oKuoaIQ _mAJG9gHnEemYr92oKuoaIQ">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mAJG8QHnEemYr92oKuoaIQ" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mAJG8gHnEemYr92oKuoaIQ" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_mAJG9gHnEemYr92oKuoaIQ" name="simulateur" type="_xa03AAHmEemYr92oKuoaIQ" association="_mAJG8AHnEemYr92oKuoaIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_pwOGUAHnEemYr92oKuoaIQ" memberEnd="_pwOGUwHnEemYr92oKuoaIQ _pwOGVgHnEemYr92oKuoaIQ">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pwOGUQHnEemYr92oKuoaIQ" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pwOGUgHnEemYr92oKuoaIQ" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_pwOGVgHnEemYr92oKuoaIQ" name="simulateur" type="_xa03AAHmEemYr92oKuoaIQ" association="_pwOGUAHnEemYr92oKuoaIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_twuuYAHnEemYr92oKuoaIQ" memberEnd="_twuuYwHnEemYr92oKuoaIQ _twuuZgHnEemYr92oKuoaIQ">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_twuuYQHnEemYr92oKuoaIQ" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_twuuYgHnEemYr92oKuoaIQ" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_twuuZgHnEemYr92oKuoaIQ" name="simulateur" type="_xa03AAHmEemYr92oKuoaIQ" association="_twuuYAHnEemYr92oKuoaIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_2aq_sAHnEemYr92oKuoaIQ" memberEnd="_2a0wsgHnEemYr92oKuoaIQ _2a0wtQHnEemYr92oKuoaIQ">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2a0wsAHnEemYr92oKuoaIQ" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2a0wsQHnEemYr92oKuoaIQ" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_2a0wtQHnEemYr92oKuoaIQ" name="simulateur" type="_xa03AAHmEemYr92oKuoaIQ" association="_2aq_sAHnEemYr92oKuoaIQ">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GdsXYAHoEemYr92oKuoaIQ" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GedMYAHoEemYr92oKuoaIQ" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_O5VuAAHoEemYr92oKuoaIQ" memberEnd="_O5VuAwHoEemYr92oKuoaIQ _O5VuBgHoEemYr92oKuoaIQ">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O5VuAQHoEemYr92oKuoaIQ" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O5VuAgHoEemYr92oKuoaIQ" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_O5VuBgHoEemYr92oKuoaIQ" name="simulateur" type="_xa03AAHmEemYr92oKuoaIQ" association="_O5VuAAHoEemYr92oKuoaIQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_A4P8YAHpEemYr92oKuoaIQ" name="Configurateur">
+              <packagedElement xmi:type="uml:Package" xmi:id="_Mjv6MAHpEemYr92oKuoaIQ" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_fkdyEAHpEemYr92oKuoaIQ" name="IConfigurateur">
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_vRTB4AHqEemYr92oKuoaIQ" name="configurerMoteur">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_0zT48AHqEemYr92oKuoaIQ" name="vitesse">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_5TYK0AHqEemYr92oKuoaIQ" name="configurerAscenseur">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_5TYK0QHqEemYr92oKuoaIQ" name="vitesse">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_EeSkEAHrEemYr92oKuoaIQ" name="configurerUtilisateurs"/>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_KSTKEAHrEemYr92oKuoaIQ" name="configurerBaptiment"/>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_YZ7zIAHrEemYr92oKuoaIQ" name="sauvegarderConfiguration">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_bQYb0AHrEemYr92oKuoaIQ" name="fichier">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_c95tkAHrEemYr92oKuoaIQ" name="supprimerConfiguration">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_c95tkQHrEemYr92oKuoaIQ" name="fichier">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_O4inUAHpEemYr92oKuoaIQ" name="Implémentation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_osuXEAHpEemYr92oKuoaIQ" name="Configurateur">
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_jRN7MAHqEemYr92oKuoaIQ" client="_osuXEAHpEemYr92oKuoaIQ" supplier="_fkdyEAHpEemYr92oKuoaIQ" contract="_fkdyEAHpEemYr92oKuoaIQ"/>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_hbfTMAHrEemYr92oKuoaIQ" name="configurerAscenseur">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_hbfTMQHrEemYr92oKuoaIQ" name="vitesse">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_hbfTMgHrEemYr92oKuoaIQ" name="configurerMoteur">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_hbfTMwHrEemYr92oKuoaIQ" name="vitesse">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_hbfTNAHrEemYr92oKuoaIQ" name="supprimerConfiguration">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_hbfTNQHrEemYr92oKuoaIQ" name="fichier">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_hbfTNgHrEemYr92oKuoaIQ" name="configurerBaptiment"/>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_hbpEMAHrEemYr92oKuoaIQ" name="sauvegarderConfiguration">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_hbpEMQHrEemYr92oKuoaIQ" name="fichier">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_hbpEMgHrEemYr92oKuoaIQ" name="configurerUtilisateurs"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_jjGf8AHrEemYr92oKuoaIQ" client="_osuXEAHpEemYr92oKuoaIQ" supplier="_inEncAHpEemYr92oKuoaIQ"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Ep3z4AHpEemYr92oKuoaIQ" name="Interfaceur">
+              <packagedElement xmi:type="uml:Package" xmi:id="_VdStwAHpEemYr92oKuoaIQ" name="Implémentation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_k2GDwAHpEemYr92oKuoaIQ" name="Interfaceur">
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_j-Lu4AHqEemYr92oKuoaIQ" client="_k2GDwAHpEemYr92oKuoaIQ" supplier="_inEncAHpEemYr92oKuoaIQ" contract="_inEncAHpEemYr92oKuoaIQ"/>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="__8QG0AHrEemYr92oKuoaIQ" name="Afficher" visibility="public">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="__8QG0QHrEemYr92oKuoaIQ" name="message">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="__8QG0gHrEemYr92oKuoaIQ" name="Saisir">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="__8QG0wHrEemYr92oKuoaIQ" name="saisie" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_gX_EQAHqEemYr92oKuoaIQ" client="_k2GDwAHpEemYr92oKuoaIQ" supplier="_fkdyEAHpEemYr92oKuoaIQ"/>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_E9cIwAHsEemYr92oKuoaIQ" client="_k2GDwAHpEemYr92oKuoaIQ" supplier="_rSPIIAHmEemYr92oKuoaIQ"/>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_JPWC0AHsEemYr92oKuoaIQ" client="_k2GDwAHpEemYr92oKuoaIQ" supplier="_dOc88AHpEemYr92oKuoaIQ"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_XG_PcAHpEemYr92oKuoaIQ" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_inEncAHpEemYr92oKuoaIQ" name="IInterfaceur">
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_z6zuMAHrEemYr92oKuoaIQ" name="Afficher" visibility="public">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_6ur1wAHrEemYr92oKuoaIQ" name="message">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_1azhUAHrEemYr92oKuoaIQ" name="Saisir">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_-xVL0AHrEemYr92oKuoaIQ" name="saisie" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_HgLSoAHpEemYr92oKuoaIQ" name="Visualisateur">
+              <packagedElement xmi:type="uml:Package" xmi:id="_SQnWYAHpEemYr92oKuoaIQ" name="Interface">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_dOc88AHpEemYr92oKuoaIQ" name="IVisualisateur">
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_P3liIAHsEemYr92oKuoaIQ" name="visualiserResultSimulation">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_VkW3sAHsEemYr92oKuoaIQ" name="fichierResultat">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_WMlVUAHsEemYr92oKuoaIQ" name="ComparerResultats"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_TeQ1QAHpEemYr92oKuoaIQ" name="Implémentation">
+                <packagedElement xmi:type="uml:Class" xmi:id="_mHrncAHpEemYr92oKuoaIQ" name="Visualisateur">
+                  <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_k9M74AHqEemYr92oKuoaIQ" client="_mHrncAHpEemYr92oKuoaIQ" supplier="_dOc88AHpEemYr92oKuoaIQ" contract="_dOc88AHpEemYr92oKuoaIQ"/>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_Z_LdMAHsEemYr92oKuoaIQ" name="visualiserResultSimulation">
+                    <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z_LdMQHsEemYr92oKuoaIQ" name="fichierResultat">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:type="uml:Operation" xmi:id="_Z_LdMgHsEemYr92oKuoaIQ" name="ComparerResultats"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Usage" xmi:id="_MMd7QAHsEemYr92oKuoaIQ" client="_mHrncAHpEemYr92oKuoaIQ" supplier="_inEncAHpEemYr92oKuoaIQ"/>
+              </packagedElement>
             </packagedElement>
           </packagedElement>
         </packagedElement>

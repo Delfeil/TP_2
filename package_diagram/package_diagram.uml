@@ -19,7 +19,6 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_p4lOkOviEeiufK5ZetEQmQ" client="_2wn_oOZeEeiaw4UvhcebdA" supplier="_COUVQOvhEeiufK5ZetEQmQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_65SeIOZeEeiaw4UvhcebdA" name="Configuration">
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_LOLzQOvhEeiufK5ZetEQmQ" client="_65SeIOZeEeiaw4UvhcebdA" supplier="_0tUEEOZeEeiaw4UvhcebdA"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_2SULYOviEeiufK5ZetEQmQ" client="_65SeIOZeEeiaw4UvhcebdA" supplier="_COUVQOvhEeiufK5ZetEQmQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_COUVQOvhEeiufK5ZetEQmQ" name="Interfaceur">
@@ -50,7 +49,6 @@
         <packagedElement xmi:type="uml:Dependency" xmi:id="_TF_AgOviEeiufK5ZetEQmQ" client="_8aDbIOvhEeiufK5ZetEQmQ" supplier="_DtvJUOvQEeiufK5ZetEQmQ"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_DHcDsOvjEeiufK5ZetEQmQ" client="_8aDbIOvhEeiufK5ZetEQmQ" supplier="_Ff5lUOviEeiufK5ZetEQmQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Dependency" xmi:id="_nbMmIOviEeiufK5ZetEQmQ" client="_0tUEEOZeEeiaw4UvhcebdA" supplier="_2wn_oOZeEeiaw4UvhcebdA"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_Ff5lUOviEeiufK5ZetEQmQ" name="Interface utilisateur de l'ascenseur">
         <packagedElement xmi:type="uml:Dependency" xmi:id="_93plEOviEeiufK5ZetEQmQ" client="_Ff5lUOviEeiufK5ZetEQmQ" supplier="_PjPXsOvQEeiufK5ZetEQmQ"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_BFD8QOvjEeiufK5ZetEQmQ" client="_Ff5lUOviEeiufK5ZetEQmQ" supplier="_8aDbIOvhEeiufK5ZetEQmQ"/>
